@@ -1,0 +1,87 @@
+.body {
+    background: #f7f7fa !important;
+}
+/* 
+.price-list-card-section-desktop {
+    margin-left: 400px !important;
+} */
+
+.striking-text-main-section {
+    margin-top: -10px !important;
+}
+
+.list-card-section-first-iphone {
+    background: #ffff !important;
+}
+
+.apple-text-fz {
+    font-size: 14px !important;
+    color: #404553 !important;
+    font-weight: bold !important;
+    margin-top: -10px !important;
+}
+
+.apple-product-text-fz {
+    font-size: 14px !important;
+    color: #404553 !important;
+    font-weight: normal !important;
+    margin-top: -16px !important;
+}
+
+.apple-product-rating-fz {
+    font-size: 13px !important;
+    margin-top: -12px !important;
+}
+
+.yellow-color {
+    color: #f5a523 !important;
+}
+
+.silver-color {
+    color: #b2b8ca !important;
+    font-size: 13px !important;
+}
+
+.blue-code {
+    padding: 2px !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    background: #fff !important;
+    color: #3866df !important;
+    border: 1px solid #3866df !important;
+}
+
+.apple-product-list-ul-fz {
+    font-size: 13px !important;
+    color: #404553 !important;
+}
+
+.main-ul-section-list-card {
+    margin-left: -20px !important;
+    margin-top: -10px !important;
+}
+
+.empty-div-section-bordered {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.apple-delivery-fz {
+    font-size: 13px !important;
+    color: #404553 !important;
+}
+
+.green-color {
+    font-size: 11px !important;
+    color: #38ae04 !important;
+}
+
+.strike-text {
+    font-size: 11px !important;
+    color: #b2b8ca !important;
+}
+
+.product-price-text-fz-floating {
+    font-size: 16px !important;
+    color: #404553;
+}

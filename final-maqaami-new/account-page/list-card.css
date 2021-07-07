@@ -1,0 +1,48 @@
+.card-code-text-fz {
+    font-size: 10px !important;
+    color: #3866df !important;
+    background: #fff !important;
+    font-weight: bold !important;
+    border: 1px solid #3866df !important;
+    padding: 2px !important;
+}
+
+.list-card-section-bg {
+    background: #fff !important;
+    /* height: 200px !important; */
+}
+
+.list-card-text-fz {
+    font-size: 13px !important;
+    color: #404553 !important;
+}
+
+.list-card-price-text-fz {
+    font-size: 16px !important;
+    color: #404553 !important;
+}
+
+.list-card-discount-price-text-fz {
+    margin-top: -20px !important;
+    font-size: 12px !important;
+}
+
+.green-color-discount {
+    color: #38ae04 !important;
+    font-weight: bold !important;
+}
+
+.silver-color-discount {
+    color: #7e859b !important;
+}
+
+.arrives-card-text-fz {
+    color: #404553 !important;
+    font-size: 13px !important;
+}
+
+.empty-bordered-div-2 {
+    border: 6px solid #f7f7fa !important; 
+}
+
+/* green code #38ae04 and silver code #7e859b */

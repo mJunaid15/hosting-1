@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+#progressbar{
+	
+	overflow: hidden;
+	counter-reset: step;
+}
+
+#progressbar li{
+	list-style-type: none;
+	color: rgb(43, 39, 39);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	width: 32%;
+	float: left;
+	position: relative;
+	text-align: center;
+	
+}
+
+#progressbar li:before{
+	content: counter(step);
+	counter-increment: step;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	
+	display: block;
+
+	font-size: 12px;
+	font-weight: 700;
+	color: #333;
+	background: white;
+	border-radius: 50%;
+	border: 1px solid rgba(128, 128, 128, 0.337);
+	margin: 0 auto 10px auto;
+}
+
+#progressbar li:after{
+	content: '';
+	width: 100%;
+	height: 8px;
+	background: rgba(192, 192, 192, 0.446);
+	position: absolute;
+	left: -50%;
+	top: 14px;
+	z-index: -1;
+}
+
+#progressbar li:first-child:after{
+	content: none;
+}
+
+
+#progressbar li.active:before,#progressbar li.active:after{
+	background: #008bff;
+	color: white;
+
+}
+#progressbar .active{
+	font-weight: 900;
+
+
+}
+
+
+
+/* place order  */
+
+.bars{
+	border-radius: 15px;
+	font-size: 12px;
+	height: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 24px;
+}
+
+
+
+.activeBars{
+	background-color: cornflowerblue;
+		color: white;
+
+
+
+}
+
+.heading{
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+.bold{
+
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.normalparag{
+
+	font-size: 14px;
+	color: grey;
+
+}
+
+.orderNum{
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+.order-section{
+	border: 1px solid rgba(128, 128, 128, 0.227);
+}
+
+.btn a{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+
+@media screen and (max-width: 768px) {
+	#bars {
+	  flex-direction: column !important;
+	}
+	.port-item {
+	  width: 100%;
+	}
+	
+.bars{
+	border-radius: 15px;
+	font-size: 6px;
+	height: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 10px;
+}
+.coloumn{
+	width: 100%;
+
+
+}
+
+.heading{
+	font-weight: 800;
+	font-size: 1rem;
+}
+  }
+
+  @media (max-width:426px) {
+
+
+	#progressbar li{
+		
+		width: 29.22%;
+		
+		
+	}
+
+	  
+  }
+
+/* place order stepper end */

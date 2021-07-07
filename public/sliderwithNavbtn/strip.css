@@ -1,0 +1,470 @@
+/*
+  
+  Responsive View
+
+*/
+
+/* Smartphones */
+@media only screen and (max-width:768px) {
+  .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 10%; }
+  .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 10%; }
+}
+
+/* Tablets (potrait) */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 5%; }
+  .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+}
+
+/* Tablets (landscape) */
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+  .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 5%; }
+  .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+}
+
+/* Desktop and above */
+@media only screen and (min-width:1440px) {
+  .wrapper span a, .strip-carousel .frames { margin: 10px 0 0 5%; }
+  .strip-carousel .arrow-left, .strip-carousel .arrow-right { width: 5%; }
+}
+
+
+
+/*
+
+  html, body
+
+*/
+
+
+
+/* No Select */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/*
+
+  Wrapper
+
+*/
+
+/* Wrapper */
+.wrapperNav {
+  display: flex;
+  flex-direction: column;
+  
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+
+  overflow: hidden;
+}
+
+
+
+/*
+
+  Strip Carousel
+
+*/
+
+/* Strip Carousel */
+.strip-carousel {  
+  width: 100%;
+  height:auto !important;
+  
+  display: inline-block;
+  position: relative;
+        
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+/* Strip Carousel Frames */
+.frames {
+  width: 100%;
+  height:100%;
+  
+  display: inline-block;
+  position: relative;
+
+  padding: 0;
+}
+
+/* Strip Carousel Frame */
+.frame {
+  display: inline-block;
+  height: 100%;
+  width: 220px !important;
+  /* width: 15% !important; */
+    
+  float: left;
+  /* margin-right: 150px; */
+  
+  transition: transform 0.8s;
+  
+  border-radius: 8px;
+  /* background-color: rgb(255, 0, 0); */
+  
+  /* background: #292a36;
+  background: -moz-linear-gradient(top,  #292a36 0%, #1b1c25 100%);
+  background: -webkit-linear-gradient(top,  #292a36 0%,#1b1c25 100%);
+  background: linear-gradient(to bottom,  #292a36 0%,#1b1c25 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292a36', endColorstr='#1b1c25',GradientType=0 );
+   */
+  /*
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.1), 0px 10px 10px -7px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.1), 0px 10px 10px -7px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.1), 0px 10px 10px -7px rgba(0,0,0,1);
+  */
+  /* -webkit-box-shadow: 0px 10px 10px -7px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 10px 10px -7px rgba(0,0,0,1);
+  box-shadow: 0px 10px 10px -7px rgba(0,0,0,1); */
+}
+
+/* Strip Carousel Frame Hover */
+.frame:hover {  
+  /* transform: scale(1.04); */
+
+  cursor: pointer;
+
+  /* -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1); */
+}
+
+/* Navigation Arrows */
+.strip-carousel .arrow-left, 
+.strip-carousel .arrow-right {  
+  display: none;
+  position: absolute;
+  
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+  color: grey;
+ 
+  text-align: center;
+  
+  z-index: 9999;
+}
+
+/* Navigation Arrow Left */
+.strip-carousel .arrow-left {
+  float: left;
+  left: 0;
+  top: 25%;
+
+}
+
+/* Navigation Arrow Right */
+.strip-carousel .arrow-right {
+  float: right;
+  right: 0;
+  top: 25%;
+}
+
+/* Navigation Arrow Left & Right Hover */
+.strip-carousel .arrow-left:hover , 
+.strip-carousel .arrow-right:hover {
+  cursor: pointer;
+}
+
+/* Section Title */
+.wrapper span a {
+  width: 90%;
+  height: 25px;
+  
+  display: block;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 25px;
+  
+  padding: 0;
+  
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+
+/* Section Title Hover */
+.wrapperNav span a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+
+ /* prducts card css */
+
+ .card-backg{
+  background: #dff1c5;
+}
+
+
+
+
+
+.cross {
+font-size: 10px
+}
+
+.padding-0 {
+padding-right: 5px;
+padding-left: 5px
+}
+
+.img-stylepro {
+margin-left: -11px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+max-width: 104% !important
+}
+
+.m-t-20 {
+margin-top: 20px
+}
+
+.bbb_backgroundpro {
+background-color: #E0E0E0 !important
+}
+
+.ribbonpro {
+width: 150px;
+height: 150px;
+overflow: hidden;
+position: absolute;
+
+}
+
+.ribbonpro span {
+position: absolute;
+display: block;
+width: 24px;
+height: 24px;
+
+border-radius: 50%;
+padding: 5px 3px;
+background-color: #e3e7e9a3;
+box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+color: #fff;
+font: 100 14px/1 'Lato', sans-serif;
+text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+text-transform: uppercase;
+text-align: center;
+}
+
+.ribbon-top-rightpro {
+top: 5px !important;
+right: 8px !important;
+}
+
+.ribbon-top-rightpro::before,
+.ribbon-top-rightpro::after {
+border-top-color: transparent;
+border-right-color: transparent
+}
+
+.ribbon-top-rightpro::before {
+top: 0;
+left: 17px
+}
+
+.ribbon-top-rightpro::after {
+bottom: 17px;
+right: 0
+}
+
+.sold_starspro i {
+color: orange;
+font-size: 12px;
+}
+.sold_starspro span{
+color: rgba(199, 197, 193, 0.844);
+font-size: 12px;
+padding: 0 5px;
+}
+
+.ribbon-top-rightpro span {
+right: 40px;
+top: 17px
+}
+
+/* div {
+display: block;
+position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box
+} */
+
+/* .bbb_deals_featured {
+width: 100%
+} */
+
+.bbb_dealspro {
+width: 100%;
+margin-right: 7%;
+padding-top: 28px;
+padding-left: 11px;
+padding-right: 20px;
+padding-bottom: 16px;
+/* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); */
+/* border-radius: 5px; */
+background-color: white;
+margin-top: 0px
+}
+
+.bbb_deals_titlepro {
+position: absolute;
+top: 10px;
+left: 34px;
+font-size: 14px;
+font-weight: 500;
+color: #000000
+}
+
+.bbb_deals_slider_containerpro {
+width: 100%
+}
+
+.bbb_deals_itempro {
+width: 100% !important
+}
+
+.bbb_deals_imagepro {
+width: 100%;
+}
+
+.bbb_deals_imagepro img {
+width: 100%;
+height: auto;
+}
+
+.bbb_deals_contentpro {
+/* margin-top: 10px; */
+margin:10px auto;
+/* background-color: #008bff; */
+
+}
+
+
+
+
+
+.bbb_deals_item_categorypro a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.bbb_deals_item_price_apro {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 4px;
+}
+.bbb_deals_item_price_apro span{
+  color: #37ae02;
+  font-weight: bolder;
+  font-size: 9px;
+  
+
+}
+
+.bbb_deals_item_price_apro strike {
+  color: #7e859b;
+  font-weight: normal;
+}
+
+.bbb_deals_item_namepro {
+
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: capitalize;
+
+}
+.bbb_deals_item_namepro span {
+
+  font-size: 12px;
+  font-weight: bolder;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+
+.bbb_deals_item_pricepro {
+  font-size: 16px;
+  font-weight: normal;
+  color: #353637;
+  margin-top: 3px;
+}
+
+.bbb_deals_item_pricepro span {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #353637
+}
+
+.available {
+  margin-top: 10px
+}
+
+/* .available_title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  background-color: chartreuse;
+} */
+.available_titlepro img{
+  width: 10px;
+  height: 16px;
+
+
+
+}
+
+.available_titlepro span {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 991px) {
+  .bbb_dealspro {
+      width: 100%;
+      margin-right: 0px
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .bbb_dealspro {
+      padding-left: 15px;
+      padding-right: 15px
+  }
+
+  .bbb_deals_titlepro {
+      left: 15px;
+      font-size: 14px
+  }
+
+  .bbb_deals_slider_nav_containerpro {
+      right: 5px
+  }
+
+  .bbb_deals_item_namepro,
+  .bbb_deals_item_pricepro {
+      font-size: 14px
+  }
+}
+
+/* prducts card css end */

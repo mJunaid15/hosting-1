@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Account | Maqaami.com </title>
+
+    <!-- FONT AWESOME CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- BOOTSTRAP CDN -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="orderstyle.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg mobile-navbar">
+
+        <a class="navbar-brand" href="index.html"> <img src="images/Maqamilogo.png" class="img-fluid ml-4 w-25"> </a>
+
+        <div class="credential-section ml-auto">
+
+            <div class="d-flex flex-row">
+
+                <div class="home-section mr-4 pr-3 pl-3"
+                    style="border-left: 1px solid #fff; border-right: 1px solid #fff;">
+
+                    <a href="index.html"> <img src="images/home-icon-silhouette.png" class="img-fluid"> </a>
+
+                </div>
+
+                <div class="cart-section">
+
+                    <a href="#"> <img src="images/cart.png" class="img-fluid"> </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="navbar-section d-flex flex-row justify-content-center">
+
+                <div class="box-container mt-2">
+
+                    <table class="elements-container">
+
+                        <tr>
+
+                            <td> <input type="search" placeholder="What are you looking for ?" aria-label="search"
+                                    class="search"> </td>
+
+                            <td> <a href="#"> <img src="images/magnifying-glass.png" class="img-fluid mr-1"> </a>
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="main-navigation">
+
+        <ul>
+
+            <li>
+
+                <div class="container-fluid hala-section">
+
+                    <div class="row text-center">
+
+                        <div class="col-md-12 mt-3">
+
+                            <span class="logo-section"> <img src="images/Maqamilogo.png" class="img-fluid w-50" />
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row text-center">
+
+                        <div class="col-md-12 mb-3">
+
+                            <span class="title-section font-weight-bold"> Hala Hamza! </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </li>
+
+            <li>
+
+                <a href="order.html">
+
+                    <span class="icon"> <img src="images/orders.svg" class="img-fluid fa" /> </span>
+
+                     <span class="title"> Orders </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="address.html">
+
+                    <span class="icon"> <img src="images/addresses.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Addresses </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="payments.html">
+
+                    <span class="icon"> <img src="images/payments.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Payments </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="credits.html">
+
+                    <span class="icon"> <img src="images/credits.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Credits </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="returns.html">
+
+                    <span class="icon"> <img src="images/returns.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Returns </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="claims.html">
+
+                    <span class="icon"> <img src="images/claims.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Claims </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="preferences.html">
+
+                    <span class="icon"> <img src="images/preferences.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Preferences </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="profile.html">
+
+                    <span class="icon"> <img src="images/profile.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Profile </span>
+
+                </a>
+
+            </li>
+            
+            <li>
+
+                <a href="#">
+
+                    <span class="icon"> <img src="images/language.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Language  <span class="ml-5"> العربية </span> </span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="#">
+
+                    <span class="icon"> <img src="images/sign-out.svg" class="img-fluid fa" /> </span>
+
+                    <span class="title"> Sign Out </span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="toggle" onclick="toggleMenu()"></div>
+
+
+    <div class="container-fluid">
+
+        <div class="row text-center">
+
+            <div class="col-md-12">
+
+                <p class="mt-5"> <span class="heading-main"> Orders </span> <br>
+                    <span class="sub-text"> See how your orders are managed and checked the
+                        latest status on your
+                        order </span> </p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="images-section mt-5 text-center">
+
+                    <img src="images/orders-empty-mobile.svg" class="img-fluid" />
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="text-section mt-4">
+
+                    <p class="text-center"> <span class="image-text"> You don't have any orders
+                            yet </span> <br> <span class="image-sub-text"> What are you waiting for? Start shopping!
+                        </span> </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="button-section text-center mb-5">
+
+                    <div class="main-button">
+
+                        <button type="button" class="btn shoppingbtn"> CONTINUE SHOPPING </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    
+    <!-- BOOTSTRAP CDN -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- EXTERNAL SCRIPT FILE -->
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

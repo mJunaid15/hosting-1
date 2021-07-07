@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> My Account | Maqaami </title>
+
+    <link rel="stylesheet" href="orderstyle.css" />
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Mobile External CSS -->
+
+    <link rel="stylesheet" href="mobilestyle.css">
+
+    <!-- BOOTSTRAP CSS LINK -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Mobile UI Starts -->
+
+    <div class="mobile-UI d-xl-none d-lg-none d-md-none">
+
+        <nav class="navbar navbar-expand-lg mobile-navbar">
+
+            <a class="navbar-brand" href="../index.html"> <img src="mobile-images/Maqamilogo.png"
+                    class="img-fluid ml-4 w-25">
+            </a>
+
+            <div class="credential-section-mobile ml-auto">
+
+                <div class="d-flex flex-row">
+
+                    <div class="home-section mr-4 pr-3 pl-3">
+
+                        <a href="../index.html"> <img src="mobile-images/home-icon-silhouette.png" class="img-fluid">
+                        </a>
+
+                    </div>
+
+                    <div class="cart-section">
+
+                        <a href="../checkOut.html"> <img src="mobile-images/cart.png" class="img-fluid"> </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="navbar-section d-flex flex-row justify-content-center">
+
+                <div class="box-container-mobile mt-2">
+
+                    <table class="elements-container-mobile">
+
+                        <tr>
+
+                            <td>
+
+                                <input type="search" placeholder="What are you looking for ?" aria-label="search"
+                                    class="search-bar">
+
+                            </td>
+
+                            <td class="p-1">
+
+                                <a href="#"> <img src="mobile-images/magnifying-glass.png" class="img-fluid"> </a>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="main-navigation">
+
+            <ul>
+
+                <li>
+
+                    <div class="container-fluid hala-section">
+
+                        <div class="row text-center">
+
+                            <div class="col-md-12 mt-3">
+
+                                <span class="logo-section"> <img src="mobile-images/Maqamilogo.png"
+                                        class="img-fluid w-50" />
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row text-center">
+
+                            <div class="col-md-12 mb-3">
+
+                                <span class="title-section font-weight-bold"> Hala Hamza! </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <a href="orders.html">
+
+                        <span class="icon"> <img src="mobile-images/orders.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Orders </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="address.html">
+
+                        <span class="icon"> <img src="mobile-images/addresses.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Addresses </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="payments.html">
+
+                        <span class="icon"> <img src="mobile-images/payments.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Payments </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="credits.html">
+
+                        <span class="icon"> <img src="mobile-images/credits.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Credits </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="returns.html">
+
+                        <span class="icon"> <img src="mobile-images/returns.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Returns </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="claims.html">
+
+                        <span class="icon"> <img src="mobile-images/claims.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Claims </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="prefrences.html">
+
+                        <span class="icon"> <img src="mobile-images/preferences.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Preferences </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="profile.html">
+
+                        <span class="icon"> <img src="mobile-images/profile.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Profile </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        <span class="icon"> <img src="mobile-images/language.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Language <span class="ml-5"> العربية </span> </span>
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        <span class="icon"> <img src="mobile-images/sign-out.svg" class="img-fluid fa" /> </span>
+
+                        <span class="title"> Sign Out </span>
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="toggle-mobile" onclick="toggleMenu()"></div>
+
+
+        <div class="container-fluid">
+
+            <div class="row text-center">
+
+                <div class="col-md-12">
+
+                    <!-- <p class="mt-5"> <span class="heading-main"> Gift Cards </span> <br>
+                        <span class="sub-text"> See how your orders are managed and checked the
+                            latest status on your
+                            order </span>
+                    </p> -->
+
+                    <div class="horizontal-tabs-section mt-2">
+
+                        <!-- Tab links -->
+
+                        <div class="tab">
+
+                            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultopen"> <small> Buy Gift Card </small> </button>
+
+                            <button class="tablinks" onclick="openCity(event, 'Paris')"> <small> Redeem Gift Card </small> </button>
+
+                        </div>
+
+                        <!-- Tab content -->
+
+                        <div id="London" class="tabcontent mt-3">
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <p style="font-weight: bold !important; font-size: 14px !important; text-align: start;"> Card Details </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <p style="color: #7e859b !important; font-size: 14px !important; text-align: start;"> Choose a Theme </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-start text-center">
+
+                                    <img src="images/noongiftcards.svg" class="img-fluid">
+
+
+                                    <img src="images/morethemes.JPG" class="ml-2 img-fluid">
+
+                            </div>
+
+                            <div class="row mt-3">
+
+                                <div class="col-12">
+
+                                    <p style="color: #7e859b !important; font-size: 14px !important; text-align: start;"> Choose gift card amount </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-around">
+
+                                    <a href="#" class="border p-2" style="font-weight: bold; font-size: 13px !important; color: #404553 !important;"> AED 25 </a>
+
+                                    <a href="#" class="border p-2" style="font-weight: bold; font-size: 13px !important; color: #404553 !important;"> AED 25 </a>
+
+                                    <a href="#" class="border p-2"  style="font-weight: bold; font-size: 13px !important; color: #404553 !important;"> AED 25 </a>
+
+                                    <a href="#" class="border p-2"  style="font-weight: bold; font-size: 13px !important; color: #404553 !important;"> AED 25 </a>
+
+                            </div>
+
+                            <div class="row mt-3">
+
+                                <div class="col-12">
+
+                                    <p style="color: #7e859b !important; font-size: 14px !important; text-align: start;"> Delivery Options </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-start mb-4">
+
+                                    <a href="#" class="border p-2 ml-1 mr-3"  style="font-weight: bold; font-size: 12px !important; color: #404553 !important;"> Send Via Message </a>
+
+
+                                    <a href="#" class="border p-2"  style="font-weight: bold; font-size: 12px !important; color: #404553 !important;"> Send Via Email </a>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <li class="media">
+
+                                        <img src="images/socailmediabunch.svg" class="mr-3 img-fluid" alt="...">
+                                        
+                                        <div class="">
+                                        
+                                            <p style="font-size: 13px !important; text-align: start !important;">
+                                                 You can share the gift card details using whatsapp, instagram and more </p>
+                                        
+                                        </div>
+                                      
+                                    </li>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="form-group">
+
+                                        <!-- <label for="inputState" style="text-align: left !important;"> Quantity Of Cards </label> -->
+
+                                        <p style="text-align: left !important; font-size: 14px !important;"> Quantity Of Cards </p>
+
+                                        <select id="inputState" class="form-control" style="width: 100% !important;">
+                                        
+                                            <option selected> 1 </option>
+                                        
+                                            <option> 2 </option>
+                                        
+                                            <option> 3 </option>
+                                        
+                                            <option> 4 </option>
+                                        
+                                            <option> 5 </option>
+                                        
+                                        </select>
+                                        
+                                      </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <p style="text-align: left !important; font-size: 11px !important;"> Gift cards are valid for 1 year from the date of purchase </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <a href="#" class="btn btn-block btn-primary font-weight-bold"> Proceed To Buy </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <hr>
+
+                                    <p style="font-size: 13px !important; font-weight: bold !important; text-align: left !important;"> How a maqaami gift cards works </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Buy it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Share it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Redeem it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                                
+
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex flex-row justify-content-around">
+
+                                <a href="#" class="mt-1" style="font-size: 12px !important;"> Terms & Condition </a>
+
+                                <a href="#" class="mt-1" style="font-size: 12px !important;"> FAQ'S </a>
+
+                                <a href="#" class="text-dark" style="font-size: 13px !important; font-weight: bold !important;"> Powered By <img src="images/noonLogo.svg" class="img-fluid"> </a>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-12 mt-3">
+                                    
+                                    <p> © 2021 noon. All Rights Reserved </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-center">
+
+                                <p class="mr-3" style="font-size: 12px !important;"> Warranty Policy </p>
+
+                                <p style="font-size: 12px !important;"> Terms Of Use </p>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-center">
+
+                                <p class="mr-3" style="font-size: 12px !important;"> Terms Of Sale </p>
+
+                                <p style="font-size: 12px !important;"> Privacy Policy </p>
+
+                            </div>
+
+                        </div>
+
+                        <div id="Paris" class="tabcontent mt-5">
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <p style="text-align: left !important; font-size: 15px !important; font-weight: bold !important;"> Redeem Gift Card </p>
+
+                                    <p style="text-align: left !important; font-size: 12px !important;"> Once you redeem your gift card you can use it to shop on noon.com or in places where you use the noon pay app. </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="form-group">
+
+                                        <p style="text-align: left !important; font-size: 12px !important; font-weight: bold !important;"> Gift Card Number * </p>
+
+                                        <input type="email" class="form-control" placeholder="Enter Gift Card Number" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                        <small id="emailHelp" class="form-text text-muted" style="text-align: left !important; font-size: 11px !important;"> Your gift card number is a 16-digit alphanumeric code </small>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <p style="font-weight: bold !important; text-align: left !important; font-size: 12px !important;"> PIN * </p>
+
+                                        <input type="password" placeholder="Enter PIN" class="form-control" id="exampleInputPassword1">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <a href="#" class="btn btn-primary btn-block"> Proceed </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <hr>
+
+                                    <p style="font-size: 13px !important; font-weight: bold !important; text-align: left !important;"> How a maqaami gift cards works </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Buy it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Share it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12">
+
+                                    <div class="media">
+
+                                        <img src="images/gift-card-bullet.svg" class="img-fluid mr-3" />
+                                    
+                                        <div class="media-body">
+
+                                          <h5 class="mt-0" style="text-align: left; font-size: 14px !important; font-weight: bold !important;">Redeem it</h5>
+
+                                        </div>
+
+                                        
+                                      
+                                    </div>
+
+                                    <p style="font-size: 11px !important; text-align: left !important;"> Buying a noon Gift Card is very easy. Just enter the amount and quantity you need. Then, choose how you want to send the gift card, pay for it and you’re done. </p>
+
+                                </div>
+
+                                
+
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex flex-row justify-content-around">
+
+                                <a href="#" class="mt-1" style="font-size: 12px !important;"> Terms & Condition </a>
+
+                                <a href="#" class="mt-1" style="font-size: 12px !important;"> FAQ'S </a>
+
+                                <a href="#" class="text-dark" style="font-size: 13px !important; font-weight: bold !important;"> Powered By <img src="images/noonLogo.svg" class="img-fluid"> </a>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-12 mt-3">
+                                    
+                                    <p> © 2021 noon. All Rights Reserved </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-center">
+
+                                <p class="mr-3" style="font-size: 12px !important;"> Warranty Policy </p>
+
+                                <p style="font-size: 12px !important;"> Terms Of Use </p>
+
+                            </div>
+
+                            <div class="d-flex flex-row justify-content-center">
+
+                                <p class="mr-3" style="font-size: 12px !important;"> Terms Of Sale </p>
+
+                                <p style="font-size: 12px !important;"> Privacy Policy </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <!-- <div class="col-md-12">
+
+                    <div class="images-section mt-5 text-center">
+
+                        <img src="mobile-images/orders-empty-mobile.svg" class="img-fluid" />
+
+                    </div>
+
+                </div> -->
+
+                <div class="col-md-12">
+
+                    <!-- <div class="text-section mt-4">
+
+                        <p class="text-center"> <span class="image-text"> You don't have any orders
+                                yet </span> <br> <span class="image-sub-text"> What are you waiting for? Start shopping!
+                            </span> </p>
+
+                    </div> -->
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <!-- <div class="button-section text-center mb-5">
+
+                        <div class="main-button">
+
+                            <a href="../index.html">
+
+                                <button type="button" class="btn shoppingbtn"> CONTINUE SHOPPING </button>
+
+                            </a>
+
+                        </div>
+
+                    </div> -->
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Mobile UI ENDS -->
+
+
+    <!-- Navbar destop UI Starts -->
+
+    <div class="d-xl-block d-lg-block d-none">
+
+        <nav class="navbar navbar-expand-sm navbar-light  w-100  ">
+            <div class="d-flex flex-row justify-content-between navbarBoxParent  align-items-center">
+
+                <div class="brandTagsCustomerPanel">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/Maqamilogo.png" class="img"></a>
+                </div>
+
+                <div class="searbardivCustomerPanel">
+
+                    <form class="form-inline">
+
+                        <input class="form-control searchbarr" type="search" placeholder="What are your looking for?"
+                            aria-label="Search">
+
+                    </form>
+
+                </div>
+
+                <div class="tabsItemsCustomerPanel ">
+
+                    <ul class="navbar-nav d-flex flex-row justify-content-end justify-content-around ">
+
+                        <li class="nav-item lineSignIn">
+
+                            <a class="nav-link " style="color: white; font-size: 16px !important;" href="# ">العربية
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item lineSignIn">
+
+                            <a class="nav-link " href="../index.html"> <img src="./images/home.png" alt="">
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="../emptyCart.html"> <img src="images/shopping-cart.png" alt="">
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+
+        </nav>
+    </div>
+<!-- Modal login -->
+<div class="modal " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="staticBackdropLabel">Login</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  
+          <div class="container-fluid  ">
+            <div class="container d-flex justify-content-center">
+    
+                <div class="loginForm ">
+                    
+                    <div class="pass welcome text-center"> Welcome Back!</div>
+                    <div class="pass signIn text-center"> Sign In  to your account </div>
+                   
+               
+                    <div class="pass forgot text-center"> Forgot Password? <a href="" data-toggle="modal" data-target="#staticBackdrop1"  data-dismiss="modal">Sign Up</a></div>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="text" >
+                            <span></span>
+                            <label> Email </label>
+                        </div>
+                        <div class="txt_field">
+                            <input type="password" >
+                            <span></span>
+                            <label>Password</label>
+                        </div>
+                       
+                        
+                        <!-- <a href="Userdetails.html"> <input type="submit" value="SIGN IN"></a> -->
+    
+    
+                      
+    
+                    </form>
+                  
+                   
+    
+                        <div class="signup_link">
+                            <a href="">Forget your password</a>
+                        </div>
+    
+                     
+                </div>
+            </div>
+        </div>
+  
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+         <a href="indexUserSignIn.html" class="btn btn-light btn-md width-100% w-100 signbtn">  Sign In</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal signup -->
+  <div class="modal " id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="staticBackdropLabel">Login</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  
+           <!-- signUp form -->
+    <div class="container mb-2">
+  
+  
+      <div class="container d-flex justify-content-center">
+        <div class="signUpForm">
+          <div class="pass signIn text-center">Create an account </div>
+         
+     
+          <div class="pass forgot text-center"  data-toggle="modal" data-target="#staticBackdrop" data-dismiss="modal" > Already have an account <a href="">Sign In</a></div>
+          <form method="post">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+              <!-- Email input -->
+              <div class="form-outline txt_field">
+                <input type="email" required id="form3Example3" />
+                <span></span>
+                <label>Email address</label>
+              </div>
+    
+              <!-- Password input -->
+              <div class="form-outline txt_field ">
+                <input type="password" required id="form3Example4" />
+                <span></span>
+                <label>Password</label>
+              </div>
+              <div class="form-outline txt_field ">
+                <input type="text" required id="form3Example4" />
+                <span></span>
+                <label>First Name</label>
+              </div>
+              <div class="form-outline txt_field ">
+                <input type="text" required id="form3Example4" />
+                <span></span>
+                <label>Last Name</label>
+              </div>
+  
+          
+  
+           
+          </form>
+        </div>
+  
+      </div>
+  
+  
+    </div>
+  
+  
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button> -->
+           <!-- Submit button -->
+           <button type="submit" class="btn btn-light  btn-block width-100% w-100 signbtn ">Create An Account </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Navbar destop ENDS -->
+
+
+    <div class="main-div container-fluid d-none d-sm-none d-md-block">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-2">
+
+                    <div class="">
+
+                        <div class="head-section">
+
+                            <ul class="first-ul">
+
+                                <li>
+
+                                    <p> <span style="font-size: 19px; font-weight: bold;"> Hala Hamza! </span> <br>
+                                        <span style="font-size: 11px;"> <a href="../indexUserSignIn.html"
+                                                style="text-decoration: none; color: #404553; font-weight: bold;"> SIGN
+                                                OUT </a> </span>
+                                    </p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="listing-section">
+
+
+                                <ul class="main-ul ">
+    
+                                    <a href="orders.html"> <li class="active">  <span> <img src="images/orders.svg" class="img-fluid">
+                                            </span> Orders
+                                        </li></a> 
+    
+                                        <a href="address.html"><li >  <span style="background: #fff !important;">
+                                                <img src="images/addresses.svg" class="img-fluid"
+                                                    style="background: #fff;" /> </span>
+                                            Addresses  </li></a>
+    
+                                            <a href="payments.html"> <li> <span> <img src="images/payments.svg" class="img-fluid" />
+                                            </span>
+                                            Payments  </li></a>
+    
+                                            <a href="credits.html"><li>  <span> <img src="images/credits.svg" class="img-fluid" />
+                                            </span>
+                                            Credits  </li></a>
+    
+                                            <a href="returns.html"><li>  <span> <img src="images/returns.svg" class="img-fluid" />
+                                            </span>
+                                            Returns
+                                        </li></a> 
+    
+                                        <a href="claims.html"><li>  <span> <img src="images/claims.svg" class="img-fluid" />
+                                            </span>
+                                            Claims
+                                         </li></a>
+    
+                                         <a href="prefrences.html"><li>  <span> <img src="images/preferences.svg"
+                                                    class="img-fluid" /> </span>
+                                            Prefrences</li> </a> 
+    
+                                            <a href="profile.html"><li>  <span> <img style="height: 15px !important;"
+                                                    src="images/profile.svg" class="img-fluid" /> </span>
+                                            Profile
+                                         </li></a>
+    
+                                </ul>
+    
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-10">
+
+                    <div class="heading-section mt-3">
+
+                        <p> <span style="font-size: 24px; font-weight: bold;"> Orders </span> <br> <span
+                                style="font-size: 14px; color: #7e859b;"> See how your orders are managed and checked
+                                the latest
+                                status
+                                on your order </span> </p>
+
+                    </div>
+
+
+                    <div class="emptycart-image-section mt-5">
+
+                        <div class="main-image d-flex justify-content-center align-items-center mt-5">
+
+                            <img src="images/orders-empty.svg" class="img-fluid mt-5 w-25">
+
+                        </div>
+
+                        <div class="text-section mt-4">
+
+                            <p class="text-center"> <span style="font-size: 21px; font-weight: bold;"> You don't have
+                                    any orders yet </span> <br> <span style="font-size: 14px;"> What are you waiting
+                                    for? Start shopping! </span> </p>
+
+                        </div>
+
+                        <div class="button-section text-center mb-5">
+
+                            <div class="main-button">
+
+                                <a href="../index.html">
+
+                                    <button type="button" class="btn shoppingbtn"> CONTINUE SHOPPING </button>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row mt-5 pt-5">
+
+                <div class="col-md-4 col-lg-6">
+
+                    <p class="copyright" style="font-size: 14px;">
+
+                        2021 &copy; maqaami . All Right Reserved
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-8 col-lg-6 text-md-right">
+
+                    <p class="mb-0 list-unstyled">
+
+                        <a class="mr-md-3 text-decoration-none anchor" href="#"> Warrenty Policy </a>
+
+                        <a class="mr-md-3 text-decoration-none anchor" href="#"> Terms Of Use </a>
+
+                        <a class="mr-md-3 text-decoration-none anchor" href="#"> Terms Of Sale </a>
+
+                        <a class="mr-md-3 text-decoration-none anchor" href="#"> Privacy Policy </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOOTSTRAP JQUERY LINKS  -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+    <script src="tabs.js"></script>
+
+    <script src="mobile-script.js"></script>
+
+</body>
+
+</html>

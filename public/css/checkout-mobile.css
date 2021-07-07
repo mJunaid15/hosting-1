@@ -1,0 +1,31 @@
+.hp-text-fz {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+
+.price-text-checkout {
+    font-size: 20px !important;
+}
+
+.delivery-text-checkout {
+    font-size: 12px !important;
+}
+
+.margin-custom {
+    margin-top: -20px !important;
+}
+
+.sold-by-text-checkout {
+    font-size: 14px !important;
+}
+
+.buy-now-checkout {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+.available-now-checkout {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}

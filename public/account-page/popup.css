@@ -1,0 +1,181 @@
+.modal-category-fz {
+    font-size: 15px !important;
+}
+
+.main-bordered {
+    border-bottom: 1px solid rgba(192, 192, 192, 0.294) !important;
+}
+
+.main-bordered-top {
+    border-top: 1px solid rgba(192, 192, 192, 0.294) !important;
+}
+
+.btn-reset {
+    color: #007bff !important;
+    background: #fff !important;
+    border: 1px solid #007bff !important;
+    width: 110px !important;
+}
+
+.btn-apply {
+    background: #007bff !important;
+    color: #fff !important;
+    width: 192px !important;
+}
+
+/* SORT BY POPUP STARTS */
+
+
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 300px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+		-ms-transform: translate3d(0%, 0, 0);
+		 -o-transform: translate3d(0%, 0, 0);
+			transform: translate3d(0%, 0, 0);
+}
+
+
+.modal.right .modal-content {
+	height: 100vh;
+	overflow-y: auto;
+}
+
+
+.modal.right .modal-body {
+	padding: 15px 15px 80px;
+}
+
+
+	
+/*Right*/
+.modal.right.fade .modal-dialog {
+	right: -10px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		 -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+			transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+	right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+
+.modal-content {
+	border-radius: 0;
+	border: none;
+}
+
+/* MODAL STYLE ENDS*/
+
+
+.recommended-class {
+    font-size: 14px !important;
+    margin-left: -25px !important;
+}
+
+.checkbox-class {
+    height: 20px !important;
+    margin-right: -15px !important;
+}
+
+.category-modal-text-fz {
+    color: black !important;
+    font-size: 13px !important;
+}
+
+
+/* brand modal with check box  */
+
+
+
+.sub-ul{
+    list-style: none;
+}
+
+.sub-ul li{
+  margin-left: -40px;
+  padding: 5px 10px;
+}
+
+.sub-ul li a{
+	text-transform: capitalize;
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+
+  }
+  .brandingHeading{
+      font-size: 14px;
+      font-weight: 900;
+  }
+
+  .searchTag{
+      height: 35px;
+      font-size: 12px;
+  }
+  .seeAll{
+      font: 12px;
+      color: blue!important;
+      font: 700;
+      
+  }
+
+
+  .seeAllboxColor {
+    font-size: 12px!important;
+    font-weight: 900!important;
+    color: blue;
+   
+
+}
+  .numberSelect{
+      width: 90px;
+      height: 30px;
+  }
+.colorbox{
+    font-size: 12px;
+    font-weight: 600;
+}
+.resultFor{
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.resultFor span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #404553;
+   
+}
+.resultbtn{
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 2px;
+
+}
+.resultbtnClear{
+    color: blue;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+
+/* brand modal with check box  end*/

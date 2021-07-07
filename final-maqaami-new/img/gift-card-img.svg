@@ -1,0 +1,11 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="9" y="10" width="14" height="10" fill="#FEEE00"/>
+<rect x="0.873779" y="4.49219" width="22" height="16" rx="2" stroke="#404553" stroke-width="1.5"/>
+<line x1="1.87622" y1="10.0103" x2="2.86024" y2="10.0103" stroke="#404553" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="14.7097" y1="10.0107" x2="22.1237" y2="10.0107" stroke="#404553" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="9.62788" y1="11.9814" x2="11.2965" y2="14.1194" stroke="#404553" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="7.40741" y1="12.2507" x2="5.42641" y2="14.1228" stroke="#404553" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="8.49927" y1="19.7422" x2="8.49927" y2="5.24219" stroke="#404553" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M8.9303 10.2329C10.9762 7.2142 13.9598 8.08896 13.9598 9.99707C13.9598 11.9851 11.2668 12.9946 8.9303 10.2329Z" fill="#FEEE00" stroke="#404553" stroke-width="1.5"/>
+<path d="M8.01868 10.2329C5.97277 7.2142 2.9892 8.08896 2.9892 9.99707C2.9892 11.9851 5.68216 12.9946 8.01868 10.2329Z" fill="#FEEE00" stroke="#404553" stroke-width="1.5"/>
+</svg>

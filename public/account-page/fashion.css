@@ -1,0 +1,235 @@
+/* Mobile-Back-Categories CSS Starts */
+
+.fashion-back-mobile {
+    font-size: 10px !important;
+    text-decoration: none !important;
+    color: #404553 !important;
+    font-weight: bold !important;
+}
+
+.back-size {
+    font-size: 9px !important;
+}
+
+/* Mobile-Back-Categories CSS ENDS */
+
+/* Shop by brands CSS STARTS */
+
+.brand-size {
+    font-size: 18px !important;
+    color: #404553 !important;
+    font-weight: bold !important;
+}
+
+/* Shop by brands CSS ENDS */
+
+/* Horizontal Wrapper CSS Starts */
+
+.horizontal-scroller {
+    background: #f7f7fa !important;
+}
+
+.horizontal-wrapper {
+    display: flex !important;
+    overflow-x: auto !important;
+}
+
+.horizontal-wrapper::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.horizontal-wrapper .horizontal-wrapper-item {
+    min-width: 90px !important;
+}
+
+.shop-brand-image {
+    width: 85px !important;
+}
+
+/* Horizontal Wrapper CSS ENDS */
+
+/* RESULT HEADING CSS STARTS */
+
+.result-fz {
+    font-size: 14px !important;
+    color: #404553 !important;
+}
+
+/* RESULT HEADING CSS ENDS */
+
+/* FILTER AND SORT BUTTONS CSS STARTS */
+
+.inner-border {
+    border-top: 2px solid #f7f7fa !important;
+    border-bottom: 2px solid #f7f7fa !important;
+    border-right: 2px solid #f7f7fa !important;
+}
+
+.all-border {
+    border: 2px solid #f7f7fa !important;
+}
+.img-width{
+    width: 55px !important;
+}
+.check-taglist span {
+
+    /* font-size: 8px !important;
+     */
+     padding: 0px 0;
+
+}
+@media (max-width:320px) {
+
+    .check-taglist span {
+
+        font-size: 8px !important;
+
+    }
+    .img-width{
+        width: 47px !important;
+        
+    }
+    
+}
+
+/* FILTER AND SORT BUTTONS CSS STARTS */
+
+/* CARD CSS Starts */
+
+.first-card-section-mobile {
+    background: #f7f7fa !important;
+}
+
+.card-text-fz {
+    color: #404553 !important;
+    font-weight: 500;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    height: 35px !important;
+    width: 100% !important;
+    font-size: 11px !important;
+    white-space: initial !important;
+}
+
+.card-price-fz {
+    font-size: 16px !important;
+    color: #404553 !important;
+    margin-top: -10px !important;
+}
+
+.card-delivery-text-fz {
+    font-size: 12px !important;
+    color: #404553 !important;
+}
+
+.image-1 {
+    position: relative;
+    background: #fff !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.test-box {
+    width: 100% !important;
+    margin: 0 auto !important;
+    margin-top: -10px !important;
+}
+
+.test-box-1 {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.main-mobile-card {
+    width: 70% !important;
+    /* padding: 5px; */
+}
+
+.black-fz {
+    color: black !important;
+}
+
+.striking-text-fz {
+    font-size: 11px !important;
+    margin-top: -20px !important;
+}
+
+.green-text-fz {
+    font-size: 11px !important;
+    color: #37ae02 !important;
+    font-weight: bold !important;
+}
+
+.heart-image {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.express-women {
+    width: 55px !important;
+}
+
+.new-season {
+    border: 1px solid #3866df;
+    color: #3866df;
+    background: #fff;
+    opacity: 90.0%;
+    padding: 2px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* CARD CSS ENDS */
+
+/* FOOTER CSS STARTS */
+
+.care-fz {
+    font-size: 19px !important;
+    color: #404553 !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    top: 7px;
+    right: 57px;
+}
+
+.footer-care-section {
+    position: relative !important;
+}
+
+.care-image {
+    position: absolute !important;
+    right: 265px;
+    top: -4px;
+}
+
+.empty-bordered-div {
+    border: 8px solid #f7f7fa;
+    margin-top: 70px !important;
+}
+
+.shopgo-fz {
+    font-size: 15px !important;
+}
+
+.copyright-text-fz {
+    color: #7e859b;
+    font-size: 14px !important;
+}
+
+.payment-fz {
+    border: 1px solid #f7f7fa;
+    border-radius: 2px;
+}
+
+.footer-links-fz a {
+    font-size: 13px !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.consumer-link {
+    margin-bottom: 90px !important;
+}

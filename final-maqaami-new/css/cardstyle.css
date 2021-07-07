@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+
+/* Horizontal Scroller CSS Starts */
+
+.bg-customize {
+    background: #f7f7fa !important;
+}
+
+.horizontal-scroller {
+    background: #f7f7fa !important;
+    /* width: 100% !important; */
+}
+
+.horizontal-wrapper {
+    display: flex !important;
+    /* padding-right: 10px !important; */
+    overflow-x: auto !important;
+}
+
+.horizontal-wrapper::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.horizontal-wrapper .horizontal-wrapper-item {
+    min-width: 160px !important;
+}
+
+.shop-brand-image {
+    width: 85px !important;
+}
+
+/* Horizontal Scroller CSS ENDS */
+
+/* CARD CSS Starts */
+
+.desktop-first-card-section-mobile {
+    background: #f7f7fa !important;
+}
+
+.desktop-card-text-fz {
+    font-size: 14px !important;
+    color: #404553 !important;
+}
+
+.desktop-card-price-fz {
+    margin-top: -12px !important;
+    font-size: 16px !important;
+    color: #404553 !important;
+}
+
+.desktop-card-delivery-text-fz {
+    font-size: 14px !important;
+    color: #404553 !important;
+}
+
+.desktop-image-1 {
+    background: #fff !important;
+    position: relative;
+    height: 470px !important;
+    /* height: 100% !important; */
+    /* width: 170px !important; */
+}
+
+.desktop-heart-image {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.desktop-black-fz {
+    color: black !important;
+}
+
+.desktop-striking-text-fz {
+    font-size: 12px !important;
+}
+
+.desktop-green-text-fz {
+    font-size: 12px !important;
+    color: #37ae02 !important;
+    font-weight: bold !important;
+}
+
+.desktop-new-season {
+    border: 1px solid #3866df;
+    color: #3866df;
+    background: #fff;
+    opacity: 90.0%;
+    padding: 2px;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.desktop-border-class {
+    outline: 1px solid rgba(192, 192, 192, 0.123) !important;
+}
+
+/* CARD CSS ENDS */
+
+.desktop-rating-fz {
+    font-size: 13px !important;
+    color: #3866df !important;
+}
+
+.desktop-bracket-text-fz {
+    color: gray !important;
+}
