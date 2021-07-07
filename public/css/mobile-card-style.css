@@ -1,11 +1,11 @@
 /* Horizontal Scroller CSS Starts */
 
 .mobile-bg-customize {
-    background: #f1f4fd !important;
+    background: #f1f4fda6 !important;
 }
 
 .mobile-horizontal-scroller {
-    background: #f1f4fd !important;
+    /* background: #f1f4fd !important; */
     /* width: 100% !important; */
 }
 
