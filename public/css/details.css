@@ -1,4 +1,31 @@
 
+  .next{
+		position: absolute;
+		top: -25px;
+		left: 3%;
+		/* font-size: 22rem; */
+		cursor: pointer;
+		color: rgba(128, 128, 128, 0.993) !important;
+		transform: translateX(100%) !important;
+	
+	
+	}
+	.prev{
+		color: rgba(128, 128, 128, 0.993) !important;
+		
+	
+		position: absolute;
+		bottom: -50px;
+		left: 1%;
+		cursor: pointer;
+		z-index: 111;
+		/* color: grey; */
+	
+		transform: translateX(100%) !important;
+	
+	
+	
+	}
 .slider {
     width: 80%;
     margin: 0 auto;
@@ -556,80 +583,11 @@
 
 
 
-/* arrow */
-
-.next1{
-	position: absolute;
-	top: -25px;
-	left: 33px;
-	/* font-size: 22rem; */
-	cursor: pointer;
-	color: rgba(128, 128, 128, 0.344);
-	transform: translateX(30%) !important;
 
 
-}
-
-.prev1{
-	color: rgba(145, 57, 57, 0.344);
-
-	position: absolute;
-	bottom: 120px;
-	left: 35px;
-	cursor: pointer;
-	/* color: grey; */
-	transform: translateX(20%) !important;
-
-
-
-}
 
 /* media queries  */
 
-
-
-@media screen and (max-width: 1024px){
-
-	.card-wrapper {
-		width: 100%;
-		margin: 0 auto;
-		/* position: relative;
-	 */
-	}
-	.cards {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 0.5rem;
-		/* margin: 0 50px; */
-	}
-
-	.next1{
-	position: absolute;
-	top: -25px;
-	left: 37px;
-	/* font-size: 22rem; */
-	cursor: pointer;
-	color: rgba(128, 128, 128, 0.344);
-
-
-
- }
- 
-.prev1{
-	color: rgba(145, 57, 57, 0.344);
-
-	position: absolute;
-	bottom: 276px;
-		left: 33px;
-	cursor: pointer;
-	/* color: grey; */
-
-
-
-}
-
-
-}
 
 @media screen and (max-width: 360px){
 
@@ -679,7 +637,7 @@
 	.cards {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-		grid-gap: 0.5rem;
+		grid-gap: 1rem;
 		/* margin: 0 50px; */
 	}
 
@@ -689,24 +647,32 @@
 
 @media (min-width: 1600px )and (max-width:1920px){
 
-	.prev1{
-		color: rgba(145, 57, 57, 0.344);
-	
+  .next{
 		position: absolute;
-		bottom: 2px;
-		left: 42px;
+		top: -25px;
+		left: 3%;
+		/* font-size: 22rem; */
 		cursor: pointer;
-		/* color: grey; */
-	
+		color: rgba(128, 128, 128, 0.993) !important;
+		transform: translateX(100%) !important;
 	
 	
 	}
-	.next1{
+	.prev{
+		color: rgba(128, 128, 128, 0.993) !important;
+		
+	
 		position: absolute;
-		top: -25px;
-		left: 42px;
+		bottom: -60px;
+		left: 2%;
 		cursor: pointer;
-		color: rgba(128, 128, 128, 0.344);
+		z-index: 111;
+		/* color: grey; */
+	
+		transform: translateX(100%) !important;
+	
+	
+	
 	}
 
 	.frame {
