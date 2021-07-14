@@ -193,7 +193,7 @@ $(".prev").click(function(){
 });
 
 
-// second arrow
+// SECOND ARROW
 
 
 $(document).ready(function(){
@@ -230,8 +230,6 @@ $(function() {                       //run when the DOM is ready
       //use a class, since your ID gets mangled
     $(this).addClass("clicked");
 
-
-
   });
 });
 
@@ -241,8 +239,10 @@ $('.owl-carousel').owlCarousel({
     loop:false,
     margin:5,
     nav:true,
-    navText: [" < "," > "],
+    navText: ["<b> < </b>", "<b> > </b>"],
     dots:false,
+    responsiveClass: true,
+    navSpeed: 150,
     slideBy: 5,
     stagePadding:5,
 
@@ -389,6 +389,7 @@ $('.owl-carousel').owlCarousel({
   'use strict';
 
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
+
   const forms = document.querySelectorAll('.needs-validation');
 
   // Loop over them and prevent submission

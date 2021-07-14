@@ -62,6 +62,12 @@ body {
         width: 87%;
         margin: 0 auto;
     }
+
+    .bigscreen2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
 .allbtnSizes {
@@ -1683,7 +1689,7 @@ footer a {
 
 
 
-/* owl carosel arrow start */
+/* OWL CAROUSEL ARROW START */
 
 .owl-theme .owl-nav .disabled {
     opacity: 0 !important;
@@ -1693,33 +1699,33 @@ footer a {
     position: absolute !important;
     top: 150px !important;
     left: -16px !important;
-    font-size: 30px !important;
-    color: #000 !important;
-    width: 38px !important;
+    font-size: 20px !important;
+    color: #404553 !important;
+    width: 30px !important;
     border-radius: 100% !important;
     border: 1px solid rgb(204, 204, 204) !important;
-    background: rgba(220, 220, 220, 0.575) !important;
+    background: #fafaf7bb !important;
 }
 
 .owl-next {
     position: absolute !important;
-    top: 200px !important;
-    transform: translateY(-90%) !important;
-    right: -18px !important;
-    font-size: 30px !important;
-    width: 38px !important;
-    color: #000 !important;
+    top: 150px !important;
+    /* transform: translateY(-90%) !important; */
+    right: -11px !important;
+    font-size: 20px !important;
+    width: 30px !important;
+    color: #404553 !important;
     border-radius: 100% !important;
     border: 1px solid rgb(204, 204, 204) !important;
-    background: rgba(220, 220, 220, 0.692) !important;
+    background: #fafaf7bb !important;
 }
 
 .owl-next:hover {
-    background: gainsboro !important;
+    background: #fff !important;
 }
 
 .owl-prev:hover {
-    background: gainsboro !important;
+    background: #ffff !important;
 }
 
-/* owl carosel arrow end  */
+/* OWL CAROUSEL ARROW END  */

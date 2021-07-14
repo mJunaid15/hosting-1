@@ -30,8 +30,6 @@ const openCity = (evt, cityName) => {
 
     evt.currentTarget.className += " active";
 
-    
-
   };
 
   document.getElementById('defaultopen').click();
