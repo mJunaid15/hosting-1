@@ -17,10 +17,19 @@
 
 .mobile-horizontal-wrapper::-webkit-scrollbar {
     width: 0 !important;
+    background: #f1f4fd !important;
+    /* width: 5px !important; */
+    /* height: 4px !important; */
+    /* display: none !important; */
 }
 
+/* .mobile-horizontal-wrapper::-webkit-scrollbar-thumb {
+    background: gray !important;
+    border-radius: 10px !important;
+} */
+
 .mobile-horizontal-wrapper .mobile-horizontal-wrapper-item {
-    min-width: 155px !important;
+    min-width: 160px !important;
 }
 
 .mobile-shop-brand-image {

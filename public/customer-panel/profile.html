@@ -484,7 +484,7 @@
 
     <div class="d-none d-xl-block d-md-block d-lg-block main-div container-fluid">
 
-        <div class="">
+        <div class="container-fluid">
 
             <div class="row">
 
@@ -520,44 +520,48 @@
 
                             <ul class="main-ul ">
 
-                                <a href="orders.html"> <li>  <span> <img src="images/orders.svg" class="img-fluid">
+                                <a href="orders.html"> <li class="p-2">  <span> <img src="images/icons/order.svg" class="img-fluid">
                                         </span> Orders
                                     </li></a> 
 
-                                    <a href="address.html"><li >  <span style="background: #fff !important;">
-                                            <img src="images/addresses.svg" class="img-fluid"
-                                                style="background: #fff;" /> </span>
+                                    <a href="address.html"><li class="p-2">  <span>
+                                            <img src="images/icons/address.svg" class="img-fluid" /> </span>
                                         Addresses  </li></a>
 
-                                        <a href="payments.html"> <li> <span> <img src="images/payments.svg" class="img-fluid" />
+                                        <a href="payments.html"> <li class="p-2"> <span> <img src="images/icons/payments.svg" class="img-fluid" />
                                         </span>
                                         Payments  </li></a>
 
-                                        <a href="credits.html"><li>  <span> <img src="images/credits.svg" class="img-fluid" />
+                                        <a href="credits.html"><li class="p-2">  <span> <img src="images/icons/credits.svg" class="img-fluid" />
                                         </span>
                                         Credits  </li></a>
 
-                                        <a href="returns.html"><li>  <span> <img src="images/returns.svg" class="img-fluid" />
+                                        <a href="returns.html"><li class="p-2">  <span> <img src="images/icons/return.svg" class="img-fluid" />
                                         </span>
                                         Returns
                                     </li></a> 
-                                    <a href="gift-card.html"><li class="">  <span> <img src="images/credits.svg" class="img-fluid" />
+                                    <a href="gift-card.html"><li class="p-2">  <span> <img src="images/icons/giftcard.svg" class="img-fluid" />
                                     </span>
                                     Gift card  </li></a>
 
-                                    <a href="claims.html"><li>  <span> <img src="images/claims.svg" class="img-fluid" />
+                                    <a href="claims.html"><li class="p-2">  <span> <img src="images/icons/claims.svg" class="img-fluid" />
                                         </span>
                                         Claims
                                      </li></a>
 
-                                     <a href="prefrences.html"><li>  <span> <img src="images/preferences.svg"
+                                     <a href="prefrences.html"><li class="p-2">  <span> <img src="images/icons/prefrences.svg"
                                                 class="img-fluid" /> </span>
                                         Prefrences</li> </a> 
 
-                                        <a href="profile.html"><li class="active">  <span> <img style="height: 15px !important;"
-                                                src="images/profile.svg" class="img-fluid" /> </span>
+                                        <a href="profile.html"><li class="active p-2">  <span> <img
+                                                src="images/icons/profile.svg" class="img-fluid" /> </span>
                                         Profile
                                      </li></a>
+
+                                     <a href="order-details.html"><li class="p-2">  <span> <img
+                                        src="images/icons/order.svg" class="img-fluid" /> </span>
+                                Order Details
+                             </li> </a>
 
                             </ul>
 
@@ -596,7 +600,7 @@
                                                 <label class="form-label font-size" for="form10Example1"> First Name
                                                 </label>
                                                 <input type="text" id="form10Example1"
-                                                    class="form-control profileform" placeholder="Fisrt Name" />
+                                                    class="border-radius-fz form-control shadow-none profileform" placeholder="Fisrt Name" />
                                             </div>
                                         </div>
                                         <div class="col-sm-4">
@@ -604,7 +608,7 @@
                                                 <label class="form-label font-size" for="form10Example2"> Last Name
                                                 </label>
                                                 <input type="text" id="form10Example2"
-                                                    class="form-control profileform" placeholder="Last Name" />
+                                                    class="form-control border-radius-fz  shadow-none profileform" placeholder="Last Name" />
                                             </div>
                                         </div>
                                         <div class="col-sm-4">
@@ -612,7 +616,7 @@
                                             <label class="form-label font-size" for="form10Example2"> Preferred language
                                             </label>
 
-                                            <select class="form-select w-100 form-control profileform"
+                                            <select class="form-select border-radius-fz shadow-none w-100 form-control profileform"
                                                 aria-label="Default select example">
 
                                                 <option selected> English </option>
@@ -633,7 +637,7 @@
 
                                                 <a href="#" class="float-right"> <button type="button"
                                                         style="border: 1px solid silver; padding: 10px; width: 200px;"
-                                                        class="btn btn-light font-weight-bolder"> SAVE </button>
+                                                        class="btn btn-light shadow-none font-weight-bolder"> SAVE </button>
                                                 </a>
 
                                             </div>
@@ -671,7 +675,7 @@
                                             <div class="form-outline">
                                                 <label class="form-label font-size" for="form10Example1"> Email </label>
                                                 <input type="text" id="form10Example1"
-                                                    class="form-control profileform" placeholder="Email" />
+                                                    class="border-radius-fz form-control shadow-none profileform" placeholder="Email" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
@@ -679,7 +683,7 @@
                                                 <label class="form-label font-size" for="form10Example2"> Password
                                                 </label>
                                                 <input type="text" id="form10Example2"
-                                                    class="form-control profileform " placeholder="Password" />
+                                                    class="border-radius-fz form-control shadow-none profileform " placeholder="Password" />
                                             </div>
                                         </div>
 
@@ -695,7 +699,7 @@
 
                                                     <button type="button"
                                                         style="border: 1px solid silver; padding: 10px; width: 200px;"
-                                                        class="btn btn-light font-weight-bolder"> Change Password
+                                                        class="btn btn-light shadow-none font-weight-bolder"> Change Password
                                                     </button>
 
                                                 </a>

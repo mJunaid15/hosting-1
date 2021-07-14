@@ -12,7 +12,7 @@
   }
 
   .signUpForm form{
-    padding: 0 40px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
 
@@ -35,52 +35,56 @@
     /* border-bottom: 1px solid silver; */
   }
   .loginForm form{
-    padding: 0 40px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
   form .txt_field{
     position: relative;
-    border-bottom: 2px solid #adadad;
-    margin: 30px 0;
+    /* border-bottom: 2px solid #adadad;*/
+    margin: 30px 0; 
   }
   .txt_field input{
     width: 100%;
-    padding: 0 5px;
-    height: 40px;
+    padding: 0 0px;
+    /* height: 40px; */
     font-size: 12px;
     border: none;
+    border-bottom: 1px solid grey;
     background: none;
     outline: none;
+    /* color: #666666 !important; */
+    
   }
-  .txt_field label{
+  .txt_field .labels{
     position: absolute;
-    top: 50%;
-    left: 5px;
+    bottom: 92%;
+    transform: translateY(50%);
+    left: 1px !important;
     color: #adadad;
-    transform: translateY(-5%);
     font-size: 12px;
     pointer-events: none;
     transition: .5s;
   }
-  .txt_field span::before{
+  /* .txt_field span::before{
     content: '';
     position: absolute;
     top: 40px;
     left: 0;
     width: 0%;
     height: 2px;
-    background:  #adadad;
     transition: .5s;
-  }
-  .txt_field input:focus ~ label,
-  .txt_field input:valid ~ label{
+  } */
+  /* .txt_field input:focus ~ .labels,
+  .txt_field input:valid ~ .labels{
     top: -10px;
     color: #272a2c;
-  }
-  .txt_field input:focus ~ span::before,
+  } */
+  /* .txt_field input:focus ~ span::before,
   .txt_field input:valid ~ span::before{
     width: 100%;
-  }
+    background:  #008bff !important;
+
+  } */
   /* .pass{
     
     margin: -5px 0 20px 5px;
@@ -158,6 +162,12 @@
   .signup_link a:hover{
     text-decoration: underline;
   }
+  .hovernone:hover{
+
+    color: #2691d9;
+
+
+  }
 
 /* 
 .login-form h5{
@@ -206,12 +216,6 @@
 
 } */
 
-.signbtn{
-    color: #2691d9;
-    font-size: 14px;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
 
 .modal-header{
     border-bottom: none;
@@ -228,3 +232,129 @@
   overflow: hidden;
   outline: 0;
 } */
+
+@media (min-width: 576px){
+  .loginModalLogin {
+    max-width: 400px !important;
+    /* margin: 1.75rem auto; */
+}
+}
+
+
+
+/* .fas .fa-eye{
+  color: grey !important;
+
+
+} */
+
+
+/* btn css  start*/
+
+.signbtn{
+  position: relative;
+    color: #2691d9;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    outline: none;
+	cursor: pointer;
+	/* color: #fff; */
+	transition: .3s ease-in-out;
+	overflow: hidden;
+	
+	text-transform: uppercase;
+}
+
+
+.signbtn span {
+	/* background-color: #f64749; */
+	padding: 5px 5px;
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	font-size: 14px;
+	font-weight: 900;
+	/* color: #fff; */
+	transform: translate(-50%,-50%);
+}
+.signbtn :hover{
+  color: #2691d9;
+
+
+}
+
+.signbtn span.signin {
+	opacity: 1;
+}
+.signbtn span.loading {
+	opacity: 0;
+}
+/* .clickedbtn{
+  background-color: hotpink;
+} */
+
+.signbtn.clickedbtn span.signin {
+	animation: login .5s ease-in-out forwards;
+}
+.signbtn.clickedbtn span.loading {
+	animation: load 1.5s ease-in-out forwards;
+}
+
+
+@keyframes login {
+	0% {
+		opacity: 1;
+	}
+  50% , 100% {
+		opacity: 0;
+	}
+	
+}
+@keyframes load {
+	0%{
+		opacity: 0;
+	}
+  50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+/* btn css  end*/
+
+/* validate form css start  */
+
+.error{
+  color:red !important;
+  font-weight: normal;
+  font-size: 12px !important;
+  margin: 0px 0;
+  transition: .5s;
+
+  /* top: 2px;
+    position: absolute; */
+}
+#myinput{
+  position: relative;
+}
+.eyeBtn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-bottom: 1px;
+}
+#eyehideopen{
+  display: none;
+  margin-bottom: 5px;
+}
+#eyehideopenSignup{
+  display: none;
+  margin-bottom: 5px;
+
+}

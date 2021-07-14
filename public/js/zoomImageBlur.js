@@ -1,8 +1,8 @@
 
 // img hover jquery
 $(document).ready(function(){
-    $(".small_img").hover(function(){
-        $(".big_img").attr('src',$(this).attr('src'));
+    $(".small_img").click(function(){
+        $(".big_img").attr('src',$(this).attr('src')).css="border:1px grey solid";
 
     });
 
@@ -18,3 +18,19 @@ $(document).ready(function(){
 });
 
 // blur effetc on image end
+
+
+// active class border
+
+
+
+  $(document).ready(function () {
+
+    $('.small_img').on('click', function () {
+  
+        $('.small_img').removeClass('img-item-active'); // here remove class selected from all shipping card
+        $(this).addClass('img-item-active'); // here apply add class to shipping card with blue border
+        
+    });
+  
+  });

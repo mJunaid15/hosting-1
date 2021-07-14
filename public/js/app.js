@@ -238,11 +238,13 @@ $(function() {                       //run when the DOM is ready
 
 
 $('.owl-carousel').owlCarousel({
-    loop:true  ,
+    loop:false,
     margin:5,
-    nav:false,
+    nav:true,
+    navText: [" < "," > "],
     dots:false,
-    stagePadding:10,
+    slideBy: 5,
+    stagePadding:5,
 
     responsive:{
         0:{

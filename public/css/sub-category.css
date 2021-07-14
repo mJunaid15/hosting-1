@@ -58,6 +58,11 @@
     text-transform: capitalize;
 }
 
+.hover-for:hover {
+    background: #008bff !important;
+    color: #fff !important;
+}
+
 .resultFor span{
     font-size: 14px;
     font-weight: 700;
