@@ -2,130 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        crossorigin="anonymous" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/productimage.css"> -->
-    <link rel="stylesheet" href="checkOut.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="Links/bootstrap-4.6.0-dist/css/bootstrap.css">
+
+  <link rel="stylesheet" href="Links/font-awesome/fontawesome-free-5.15.3-web/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="checkOut.css">
+
+  <link rel="stylesheet" type="text/css" href="css/stepper.css">
+
+  <link rel="stylesheet" href="css/otp.css">
 
 
-    <!-- bootstrape 4.600 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-- bootstrape 4.600 end-->
-
-    <!-- stepper -->
-    <link rel="stylesheet" type="text/css" href="css/stepper.css">
-    <link rel="stylesheet" href="css/otp.css">
-    <!-- stepper End -->
-
-    <!-- google maps links -->
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
-
-    <!-- google maps links end -->
-
-    <title>Maqaami | OTP</title>
+  <title>Maqaami | OTP</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between"
-        style="background-color:#008bff ; color: white;">
+  <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between"
+    style="background-color:#008bff ; color: white;">
 
 
 
 
-        <div class="" id="">
-            <ul class="navbar-nav mr-auto  ">
+    <div class="" id="">
+      <ul class="navbar-nav mr-auto  ">
 
-                <li class="nav-item active px-3 mobHide">
-                    <a class="nav-link" href="checkOut.html" style="color: white;"><i class="fas fa-arrow-left"
-                            style="color: white;"></i> Cart </a>
-                </li>
-                <li class="nav-item active px-3 mobHide">
-                    <a class="nav-link" href="#" style="color: white;"><span class="securecheckout pr-3">Secure checkOut
-                        </span> &nbsp; For
-                        assistance, call 800-1160210
+        <li class="nav-item active px-3 mobHide">
+          <a class="nav-link" href="checkOut.html" style="color: white;"><i class="fas fa-arrow-left"
+              style="color: white;"></i> Cart </a>
+        </li>
+        <li class="nav-item active px-3 mobHide">
+          <a class="nav-link" href="#" style="color: white;"><span class="securecheckout pr-3">Secure checkOut
+            </span> &nbsp; For
+            assistance, call 800-1160210
 
-                    </a>
-                </li>
-
-
+          </a>
+        </li>
 
 
 
-            </ul>
-
-        </div>
-        <div><a class="navbar-brand mr-auto float-right d-flex" href="index.html"> <img src="img/Maqamilogo.png" alt=""
-                    style="height: 30px;"></a>
-        </div>
-
-    </nav>
 
 
-    <div class="container-fluid">
-        <div class="row mt-5">
-            <div class="col-12">
-                <h1 class="text-center otptextHeading">  
-                    Verify phone number
-                </h1>
-            </div>
-        </div>
+      </ul>
+
+    </div>
+    <div><a class="navbar-brand mr-auto float-right d-flex" href="index.html"> <img src="img/Maqamilogo.png" alt=""
+          style="height: 30px;"></a>
     </div>
 
-    <div class="container order-section pt-5">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="otpheading2 text-center">please verify your phone number to continue</h1>
-                <br>
-                <p class="text-center otpPera">to proceed to checkout, use the OTP & verify your mobile number. We've sent the OTP to
-                    <span>+92482235566</span>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="container d-flex justify-content-center ">
+  </nav>
 
-                  
-                    <p class="text-center">
-                        <div class="min-h-screen ">
-                            <!-- Make sure the following div id (OTPInput) is the same in the Javascipt -->
-                            <form action="#" method="post">
-                              <!-- This is the div where the otp fields are generated by Javascript -->
-                              <div class="d-flex justify-content-center  " id="OTPInput">
-                              </div>
-                              <!-- Change this name attribute to mach your form submission parameters. Make sure you update the id in the javascript code if any changes are made to the id attribute -->
-                              <input hidden id="otp" name="otp" value=""  >
-                              <!-- <button class="mt-10 button button-primary font-bold text-lg px-6 pt-3 pb-3 rounded bg-black text-white" id="otpSubmit">Submit
+
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 class="text-center otptextHeading">
+          Verify phone number
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container order-section pt-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="otpheading2 text-center">please verify your phone number to continue</h1>
+        <br>
+        <p class="text-center otpPera">to proceed to checkout, use the OTP & verify your mobile number. We've sent the
+          OTP to
+          <span>+92482235566</span>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="container d-flex justify-content-center ">
+
+
+          <p class="text-center">
+          <div class="min-h-screen ">
+            <!-- Make sure the following div id (OTPInput) is the same in the Javascipt -->
+            <form action="#" method="post">
+              <!-- This is the div where the otp fields are generated by Javascript -->
+              <div class="d-flex justify-content-center  " id="OTPInput">
+              </div>
+              <!-- Change this name attribute to mach your form submission parameters. Make sure you update the id in the javascript code if any changes are made to the id attribute -->
+              <input hidden id="otp" name="otp" value="">
+              <!-- <button class="mt-10 button button-primary font-bold text-lg px-6 pt-3 pb-3 rounded bg-black text-white" id="otpSubmit">Submit
                               </button> -->
-                            
-                            </form>
-                            <div class="btnSubmitDiv " >
-                                <a href="orderPlaced.html" class="submitbtn ">
-                                    <button id="submitbtn" class="btn btn-primary   font-weight-bold  mt-3">Submit & verify phone</button>
-                
-                                        </a>
-                            </div>
-                           
-                          
-                          </div>
-                        
 
-                        <!-- <div id="divOuter">
+            </form>
+            <div class="btnSubmitDiv ">
+              <a href="orderPlaced.html" class="submitbtn ">
+                <button id="submitbtn" class="btn btn-primary   font-weight-bold  mt-3">Submit & verify phone</button>
+
+              </a>
+            </div>
+
+
+          </div>
+
+
+          <!-- <div id="divOuter">
                             <div id="divInner">
                                 <input id="partitioned" type="text" maxlength="4" />
                             </div>
                         </div> -->
 
-                        <!-- <span class="kuchb">  <input type="text" class="widthtextbox" placeholder="0" maxlength="1" > </span>
+          <!-- <span class="kuchb">  <input type="text" class="widthtextbox" placeholder="0" maxlength="1" > </span>
                         <span>  <input type="text" class="widthtextbox" placeholder="0" maxlength="1" id="partitioned" > </span>
 
                         <span>  <input type="text" class="widthtextbox" placeholder="0" maxlength="1" id="partitioned" > </span>
@@ -134,202 +125,173 @@
 
                         <span>  <input type="text" class="widthtextbox" placeholder="0" maxlength="1"  id="partitioned" > </span>
                         <br> -->
-                      
-
-
-                    </p>
-
-                    
-                </div>
-            </div>
-
-
-        </div>
-
-
-<hr>
 
 
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-between         ">
-                    <div>
-                        <p class=""><a href="" class="otpheading2">change phone number</a></p>
-                    </div>
+          </p>
 
-                    <div>
-                        <p class="otpPera">didn't receive OTP? Resend<a href="" class="otpheading2"> now </a></p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-      <div class="container-fluid">
-        <div class="row ">
-            <div class="col-12 text-center ">
-
-                <p style="font-size: 12px;">
-                    © 2021 Maqaami. All Rights Reserved.
-
-
-                </p>
-            </div>
-
-          
 
         </div>
       </div>
 
-        <script>
-            const $otp_length = 6;
 
-const element = document.getElementById('OTPInput');
-for (let i = 0; i < $otp_length; i++) {
-  let inputField = document.createElement('input'); // Creates a new input element
-  inputField.className = "widthtextbox text-center mr-1";
-  // Do individual OTP input styling here;
-  inputField.style.cssText = "color: grey; text-shadow: 0 0 0 gray; outline:blue;  "; // Input field text styling. This css hides the text caret
-  inputField.id = 'otp-field' + i; // Don't remove
-  inputField.maxLength = 1; // Sets individual field length to 1 char
-  // inputField.type = Number;
- 
+    </div>
 
-  element.appendChild(inputField); // Adds the input field to the parent div (OTPInput)
-}
-document.getElementById("submitbtn").disabled = true;
 
-/*  This is for switching back and forth the input box for user experience */
-const inputs = document.querySelectorAll('#OTPInput > *[id]');
-for (let i = 0; i <= inputs.length; i++) {
-  
-  //document.getElementById('#OTPInput > *[id]').disabled = true;
+    <hr>
 
-  
-  inputs[i].addEventListener('keydown', function(event) {
-    if (event.key === "Backspace") {
 
-      if (inputs[i].value == '') {
-        if (i != 0) {
-         
-       
-          inputs[i - 1].focus();
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between         ">
+          <div>
+            <p class=""><a href="" class="otpheading2">change phone number</a></p>
+          </div>
+
+          <div>
+            <p class="otpPera">didn't receive OTP? Resend<a href="" class="otpheading2"> now </a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-12 text-center ">
+
+          <p style="font-size: 12px;">
+            © 2021 Maqaami. All Rights Reserved.
+
+
+          </p>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <script>
+      const $otp_length = 6;
+
+      const element = document.getElementById('OTPInput');
+      for (let i = 0; i < $otp_length; i++) {
+        let inputField = document.createElement('input'); // Creates a new input element
+        inputField.className = "widthtextbox text-center mr-1";
+        // Do individual OTP input styling here;
+        inputField.style.cssText = "color: grey; text-shadow: 0 0 0 gray; outline:blue;  "; // Input field text styling. This css hides the text caret
+        inputField.id = 'otp-field' + i; // Don't remove
+        inputField.maxLength = 1; // Sets individual field length to 1 char
+        // inputField.type = Number;
+
+
+        element.appendChild(inputField); // Adds the input field to the parent div (OTPInput)
+      }
+      document.getElementById("submitbtn").disabled = true;
+
+      /*  This is for switching back and forth the input box for user experience */
+      const inputs = document.querySelectorAll('#OTPInput > *[id]');
+      for (let i = 0; i <= inputs.length; i++) {
+
+        //document.getElementById('#OTPInput > *[id]').disabled = true;
+
+
+        inputs[i].addEventListener('keydown', function (event) {
+          if (event.key === "Backspace") {
+
+            if (inputs[i].value == '') {
+              if (i != 0) {
+
+
+                inputs[i - 1].focus();
+              }
+            } else {
+              inputs[i].value = '';
+            }
+
+          } else if (event.key === "ArrowLeft" && i !== 0) {
+            inputs[i - 1].focus();
+
+            // alert(i);
+
+          } else if (event.key === "ArrowRight" && i !== inputs.length - 1) {
+            inputs[i + 1].focus();
+
+            //  alert(i);
+
+          } else if (event.key != "ArrowLeft" && event.key != "ArrowRight") {
+            inputs[i].setAttribute("type", "number");
+            // inputs[i].setAttribute("type", "password");
+
+            inputs[i].value = '';
+            // Bug Fix: allow user to change a random otp digit after pressing it
+            setTimeout(function () {
+              inputs[i].setAttribute("type", "number");
+              inputs[i].setAttribute("type", "password");
+
+            }, 1000);
+
+
+
+            // Hides the text after 1 sec
+          }
+
         }
-      } else {
-        inputs[i].value = '';
+
+        );
+        inputs[i].addEventListener('input', function () {
+          inputs[i].value = inputs[i].value.toUpperCase(); // Converts to Upper case. Remove .toUpperCase() if conversion isnt required.
+          if (i === inputs.length - 1 && inputs[i].value !== '') {
+            if (i == 5) {
+              //alert(i);
+              document.getElementById("submitbtn").disabled = false;
+            } else {
+              document.getElementById("submitbtn").disabled = true;
+            }
+
+            return true;
+          } else if (inputs[i].value !== '') {
+            inputs[i + 1].focus();
+
+
+
+
+          }
+        });
+
+
       }
 
-    } else if (event.key === "ArrowLeft" && i !== 0) {
-      inputs[i - 1].focus();
-    
-      // alert(i);
+      /*  This is to get the value on pressing the submit button
+        *   In this example, I used a hidden input box to store the otp after compiling data from each input fields
+        *   This hidden input will have a name attribute and all other single character fields won't have a name attribute
+        *   This is to ensure that only this hidden input field will be submitted when you submit the form */
 
-    } else if (event.key === "ArrowRight" && i !== inputs.length - 1) {
-      inputs[i + 1].focus();
+      document.getElementById('submitbtn').addEventListener("click", function () {
+        const inputs = document.querySelectorAll('#OTPInput > *[id]');
+        let compiledOtp = '';
+        for (let i = 0; i < inputs.length; i++) {
+          compiledOtp += inputs[i].value;
+        }
+        document.getElementById('otp').value = compiledOtp;
 
-      //  alert(i);
+        return true;
 
-    } else if (event.key != "ArrowLeft" && event.key != "ArrowRight") {
-      inputs[i].setAttribute("type", "number");
-      // inputs[i].setAttribute("type", "password");
+      });
 
-      inputs[i].value = '';
-       // Bug Fix: allow user to change a random otp digit after pressing it
-      setTimeout(function() {
-        inputs[i].setAttribute("type", "number");
-        inputs[i].setAttribute("type","password");
-
-      }, 1000);
-      
-
-      
-      // Hides the text after 1 sec
-    }
-  
-  }
- 
-  );
-  inputs[i].addEventListener('input', function() {
-    inputs[i].value = inputs[i].value.toUpperCase(); // Converts to Upper case. Remove .toUpperCase() if conversion isnt required.
-    if (i === inputs.length - 1 && inputs[i].value !== '') {
-      if( i == 5){
-        //alert(i);
-        document.getElementById("submitbtn").disabled = false;
-      }else{
-        document.getElementById("submitbtn").disabled = true;
-      }
-
-      return true;
-    } else if (inputs[i].value !== '') {
-      inputs[i + 1].focus();
-    
-
-      
-
-    }
-  });
+    </script>
 
 
-}
+    <script src="Links/bootstrap-4.6.0-dist/js/bootstrap.bundle.js"></script>
 
-/*  This is to get the value on pressing the submit button
-  *   In this example, I used a hidden input box to store the otp after compiling data from each input fields
-  *   This hidden input will have a name attribute and all other single character fields won't have a name attribute
-  *   This is to ensure that only this hidden input field will be submitted when you submit the form */
+    <script src="Links/jQuery-3.6.0/jquery.min.js"></script>
 
-document.getElementById('submitbtn').addEventListener("click", function() {
-  const inputs = document.querySelectorAll('#OTPInput > *[id]');
-  let compiledOtp = '';
-  for (let i = 0; i < inputs.length; i++) {
-    compiledOtp += inputs[i].value;
-  }
-  document.getElementById('otp').value = compiledOtp;
-  
-  return true;
- 
-});
-
-</script>
-
-
-        <!-- map API script -->
-
-        <script
-            src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBXOzsnsvI4Q51gybw50pY_azOLA9IH8TM&callback=initMap"
-            async defer></script>
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
-        <!-- <script
-        src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAWgFEQlKEqacXN24owJg5933dMHV0mqnI"></script> -->
-        <script src="js/mapAPI.js"></script>
-        <!-- map API script -->
-
-        <!-- stepper -->
-        <script type="text/javascript" src="js/stepper.js"></script>
-        <!-- stepper -->
-
-
-        <!-- owl-carousel -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!-- owl-carousel -->
-
-        <!-- bootstrape 4.600 -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-            crossorigin="anonymous"></script>
-        <!-- bootstrape 4.600 end-->
-
-
+    <!-- stepper -->
+    <script type="text/javascript" src="js/stepper.js"></script>
+    <!-- stepper -->
 
 
 </body>

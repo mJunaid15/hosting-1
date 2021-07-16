@@ -22,7 +22,7 @@
 
         dsetting: { //default settings
 
-            // загрузка big картинки
+            // загрзкау big картинки
             loadinggif: '', // картинка показываемая при загрузке big изображения
             loadopacity: 0.1, // прозрачность фона перекрытия tmb картинки при загрузке	big изображения
             loadbackground: '#878787', // цвет фона перекрытия tmb картинки при загрузке	 big изображения
@@ -30,10 +30,10 @@
 
             // лупа (cursorshade)
             cursorshade: true, // показать контейнер лупы
-            magnifycursor: 'crosshair', // вид курсора мыши над tmb в формате CSS
-            cursorshadecolor: '#fff', // цвет контейнера лупы в формате CSS
+            magnifycursor: 'none', // вид курсора мыши над tmb в формате CSS
+            cursorshadecolor: '#6594e6', // цвет контейнера лупы в формате CSS
             cursorshadeopacity: 0.3, // прозрачность контейнера лупы
-            cursorshadeborder: '1px solid black', // внешний бордюра контейнера лупы в формате CSS
+            cursorshadeborder: '1px solid #6594e6', // внешний бордюра контейнера лупы в формате CSS
             zindex: '', // z-index контейнера лупы 
             stepzoom: 0.5, // шаг зуммирования при прокрутке колеса мыши					
             zoomrange: [2, 2], // диапазон зуммирования
@@ -43,7 +43,7 @@
 
             // подсказка (statusdiv)
             showstatus: true, // показывать при наведении на tmb help контейнер
-            showstatustime: 2000, // время показа help контейнера
+            showstatustime: 500, // время показа help контейнера
             statusdivborder: '1px solid black',
             statusdivbackground: '#C0C0C0',
             statusdivpadding: '4px',
@@ -58,10 +58,10 @@
             innerzoom: false, // показать контейнер внутри tmb
             innerzoommagnifier: false, // показать контейнер как лупу
             descarea: false, // показать контейнер в произвольной области, область descarea должна иметь width и height				
-            leftoffset: 15, // отступ слева от tmb картинки
-            rightoffset: 15, // отступ справа от tmb картинки
+            leftoffset: 7, // отступ слева от tmb картинки
+            rightoffset: 7, // отступ справа от tmb картинки
             switchsides: true, // учитывать край экрана
-            magnifierborder: '1px solid black', // внешний бордюр
+            magnifierborder: 'none', // внешний бордюр
 
 
             // контейнер текста снизу к картинке
