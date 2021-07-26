@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -62,12 +63,10 @@ body {
         width: 87%;
         margin: 0 auto;
     }
-
     .bigscreen2 {
         width: 100%;
         margin: 0 auto;
     }
-
 }
 
 .allbtnSizes {
@@ -1214,11 +1213,25 @@ footer a {
 
 .bbb_deals_image {
     width: 100%;
+    min-height: 240px !important;
+}
+
+.product-mobile-image-fz {
+    width: 100% !important;
+    min-height: 208px !important;
+}
+
+.img-mobile-product-class {
+    width: 100% !important;
+    height: 208px !important;
 }
 
 .bbb_deals_image img {
     width: 100%;
-    /* height: auto; */
+    height: 240px !important;
+    /* image-rendering: auto !important; */
+    /* image-rendering: crisp-edges; */
+    image-rendering: optimizeQuality !important;
 }
 
 .bbb_deals_content {
@@ -1651,8 +1664,6 @@ footer a {
     padding: 0 !important;
 }
 
-
-
 /* .owl-prev {
     position: absolute !important;
     top: 100px !important;
@@ -1687,14 +1698,13 @@ footer a {
     padding: 25px !important;
 } */
 
-
-
 /* OWL CAROUSEL ARROW START */
 
 .owl-theme .owl-nav .disabled {
     opacity: 0 !important;
     cursor: default;
 }
+
 .owl-prev {
     position: absolute !important;
     top: 150px !important;

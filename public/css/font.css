@@ -1,0 +1,48 @@
+/* Proxima Nova (English) */
+* {
+    font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.eot?#iefix");
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.eot?#iefix") format("eot"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.woff2") format("woff2"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.woff") format("woff"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.eot?#iefix");
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.eot?#iefix") format("eot"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.woff2") format("woff2"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.woff") format("woff"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.eot?#iefix");
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.eot?#iefix") format("eot"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.woff2") format("woff2"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.woff") format("woff"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.eot?#iefix");
+    src: url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.eot?#iefix") format("eot"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.woff2") format("woff2"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.woff") format("woff"),
+        url("https://z.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}

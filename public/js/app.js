@@ -117,32 +117,6 @@ $(document).ready(function () {
   });
 });
 
-// let abc = document.getElementById('btn-pay-card');
-// let def = document.getElementById('btn');
-
-// function changeborder() {
-//   abc = abc.style.border = "2px solid #3866df";
-//   def = def.style.border = "2px solid #3866df";
-//   abc = abc.style.border = "none";
-// }
-
-
-
-
-
-
-
-
-
-
-// megadrop down js end
-
-
-// $(document).ready(function (){
-//   $("#slide_down").click(function (){
-//       $('.img-select').animate({  scrollTop: $(".img-select ").offset().top+120 }, 1140);
-//   });
-// });
 
 var chec=document.getElementsByClassName("section").length;
 
@@ -239,8 +213,9 @@ $('.owl-carousel').owlCarousel({
     loop:false,
     margin:5,
     nav:true,
-    navText: ["<b> < </b>", "<b> > </b>"],
+    navText: [" < ", " > "],
     dots:false,
+    lazyLoad:true,
     responsiveClass: true,
     navSpeed: 150,
     slideBy: 5,
@@ -265,20 +240,6 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-
-
-
-
-
-// $(".btnplus").click(function(){
-
-//     $(".abc").addClass("active");
-
-//   });
-
-
-
-
 // confirm order button
 
    $(document).ready(function(){
@@ -287,104 +248,10 @@ $('.owl-carousel').owlCarousel({
   });
 });
 
-
-
 // confirm button end
 
-
-
-// review section jquery7
-
-
-
-  // $(document).ready(function(){
-  //   $(".Specification").click(function(){
-  //     $(".inerSpecification").toggle();
-  //   });
-  // });
-  // $(document).ready(function(){
-  //   $(".Specification").click(function(){
-  //     $(".inerOverView").hide();
-  //   });
-  // });
-  // $(document).ready(function(){
-  //   $(".Specification").click(function(){
-  //     $(".full-sp").hide();
-  //   });
-  // });
-
-
-  // $(document).ready(function(){
-  //   $(".Specification").click(function(){
-  //     $(".inerOverView").hide();
-  //   });
-  // });
-
-  // $(document).ready(function(){
-  //   $(".overview1").click(function(){
-  //     $(".inerOverView").toggle();
-  //   });
-  // });
-
-  // $(document).ready(function(){
-  //   $(".review").click(function(){
-  //     $(".inerSpecification").hide();
-  //   });
-  // });
-
-  //  $(document).ready(function(){
-  //   $(".review").click(function(){
-  //     $(".inerOverView").hide();
-  //   });
-  // });
-
-  // $(document).ready(function(){
-  //   $(".full-sp").click(function(){
-  //     $(".overview1").removeClass('activeCus');
-  //     $("#Specififcation11").addClass('activeCus');
-  //     $(".inerOverView").hide();
-
-  //   });
-  // });
-
-
-
-
-  // review section jquery end
-
-
-
-  // $(document).ready(function(){
-  //   $(".review").click(function(){
-  //     $(".inerReview").toggle();
-  //   });
-  // });
-// $(document).ready(function(){
-
-//     $('.plusbtn').click(function(){
-//         $('.abc').toggle();
-//     });
-
-// });
-
-
-
-// $(function(){
-//     $('.plusbtn').hover(function(){
-//         function(){
-//             $( 'abc',this).slideDown(500);
-
-//         }
-
-//     });
-
-// });
-
-
-// login page
-
-
 // Example starter JavaScript for disabling form submissions if there are invalid fields
+
 (() => {
   'use strict';
 
@@ -406,22 +273,8 @@ $('.owl-carousel').owlCarousel({
 
 // login page end
 
-
-
-// shipping js
-
-// $(function() {                       //run when the DOM is ready
-//   $(".card").click(function() {
-//       //use a class, since your ID gets mangled
-//     $(this).addClass("active");
-
-
-
-//   });
-// });
-
-
 // shipping select box box-blue 
+
 $(document).ready(function () {
 
   $('.shipping-card').on('click', function () {
@@ -433,50 +286,12 @@ $(document).ready(function () {
 
 });
 
-// shipping select box box-blue end
-
-
-
-
-
-
-
-  // hover active effect
-
-  // Add active class to the current button (highlight it)
-  // $(document).ready(function(){
-  //   var header = document.getElementById("myDIV");
-  //   var btns = header.getElementsByClassName("test");
-  //   for (var i = 0; i < btns.length; i++) {
-  //     btns[i].addEventListener("click", function() {
-  //     var current = document.getElementsByClassName("activeCus");
-  //     current[0].className = current[0].className.replace(" activeCus", "");
-  //     this.className += " activeCus";
-  //     });
-  //   }
-  //   });
-
 // remove disable button
+
 $(".card").click(function(event){
   event.preventDefault();
   $('button').removeAttr("disabled")
 });
-
-
-
-
-
-// shipping js end
-
-// payment button js
-// $(function() {
-//   $(".butnn").click(function() {
-//     $(this).addClass("active");
-
-
-
-//   });
-// });
 
 $(".butnn").click(function(event){
   event.preventDefault();
