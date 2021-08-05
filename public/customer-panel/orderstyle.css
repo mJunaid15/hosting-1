@@ -284,9 +284,12 @@
 
 .horizontal-wrapper {
     display: flex !important;
+    flex-direction: row !important;
     /* padding-right: 10px !important; */
     overflow-x: auto !important;
+    /* white-space: nowrap; */
 }
+
 
 .horizontal-wrapper::-webkit-scrollbar {
     /* width: 10px !important; */
@@ -314,11 +317,149 @@
 
 }
 .img-fz{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 .multi-fz {
     font-size: 12px;
     text-transform: uppercase;
 
 }
+
+/* junaid today change start  */
+
+.backlinear{
+    padding: 20px 0;
+    border-radius: 5px;
+    background: linear-gradient(
+        308.59deg
+        , rgb(236, 234, 123) 0%, rgb(145, 208, 154) 100%);
+}
+.backlinearFont{
+    color: #26272a;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+.backlinearPara{
+    color: #26272a;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+
+}
+.fa-check-circle-o{
+    font-size: 35px !important;
+    color: #404553 !important;
+
+
+}
+.fa-circle-o-notch{
+    font-size: 28px !important;
+    color: #404553 !important;
+
+
+
+}
+.backlinearBtn{
+    outline: none !important;
+    background-color: #26272a;
+    border-radius: 20px;
+    color: #feee00;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 12px;
+    border: none;
+    text-transform: capitalize;
+
+}
+.backlinearBtnLearn{
+    outline: none !important;
+    background: transparent;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 8px;
+    border: none;
+    color: #26272a;
+  
+
+
+}
+.dropdownbtn{
+    background-color: #ffffff !important;
+    text-transform: capitalize;
+    color: #404553 !important;
+    font-size: 13px !important;
+    border: 1px solid #4045534f !important;
+
+
+}
+.reviewBtn{
+    background: transparent;
+    color: #3866df;
+    border: 1px solid #3867df8f;
+    border-radius: 1px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+}
+.bg-white{
+    box-shadow: rgb(175 130 130 / 20%) 0px 10px 20px -6px;
+    border-radius: 5px;
+}
+.cancel-subtext{
+    color: #ce0f0f;
+    text-transform: uppercase;
+}
+.opacity-0{
+    opacity: 0.8;
+
+}
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 150px;
+    white-space:nowrap
+}
+.wrapper { 
+    /* background:#EFEFEF;  */
+    /* box-shadow: 1px 1px 10px #999;  */
+    margin: auto; 
+    text-align: center; 
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    padding-top: 5px;
+}
+.productWidth{
+    /* white-space: nowrap !important; */
+    max-width:300px !important ;
+    min-width: 300px;
+    white-space: nowrap;
+}
+
+.fa-chevron-left{
+    color: #404553 !important;
+
+}
+.placeorder{
+    color: #7e859b;
+    font-weight: 500;
+}
+.addresspara{
+    color: #7e859b;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+/* junaid today chnage end  */
