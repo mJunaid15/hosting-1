@@ -1,18 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title> My Account | Maqaami </title>
 
     <link rel="stylesheet" href="orderstyle.css" />
-
 
     <link rel="stylesheet" href="../css/style.css">
 
@@ -48,8 +47,7 @@
 
                     <div class="home-section mr-4 pr-3 pl-3">
 
-                        <a href="../index.html"> <img src="mobile-images/home-icon-silhouette.png" class="img-fluid">
-                        </a>
+                        <a href="../index.html"> <img src="mobile-images/home-icon-silhouette.png" class="img-fluid"> </a>
 
                     </div>
 
@@ -259,13 +257,17 @@
 
             <div class="row text-center">
 
-                <div class="col-md-12">
+                <div class="col-md-6">
 
-                    <p class="mt-5"> <span class="heading-main"> Orders </span> <br>
-                        <span class="sub-text"> See how your orders are managed and checked the
-                            latest status on your
-                            order </span>
+                    <p class="mt-5"> <span class="heading-main"> Addresses </span> <br>
+                        <span class="sub-text"> Add, remove and select preffered addresses </span>
                     </p>
+
+                </div>
+                <div class="col-md-6">
+
+                    <button type="button" class="btn shoppingbtn"> ADD A NEW ADDRESS </button>
+
 
                 </div>
 
@@ -277,7 +279,7 @@
 
                     <div class="images-section mt-5 text-center">
 
-                        <img src="mobile-images/orders-empty-mobile.svg" class="img-fluid" />
+                        <img src="mobile-images/addresses-empty.svg" class="img-fluid" />
 
                     </div>
 
@@ -287,8 +289,7 @@
 
                     <div class="text-section mt-4">
 
-                        <p class="text-center"> <span class="image-text"> You don't have any orders
-                                yet </span> <br> <span class="image-sub-text"> What are you waiting for? Start shopping!
+                        <p class="text-center"> <span class="image-text"> Where are your saved addresses? </span> <br> <span class="image-sub-text"> Add an address so we can get cracking on the delivery!
                             </span> </p>
 
                     </div>
@@ -301,18 +302,12 @@
 
                         <div class="main-button">
 
-                            <a href="../index.html">
-
-                                <button type="button" class="btn shoppingbtn"> CONTINUE SHOPPING </button>
-
-                            </a>
 
                         </div>
 
                     </div>
 
                 </div>
-
 
             </div>
 
@@ -323,199 +318,71 @@
     <!-- Mobile UI ENDS -->
 
 
-    <!-- Navbar destop UI Starts -->
+    <!-- Navbar destop Starts -->
 
-    <div class="d-xl-block d-lg-block d-none">
+   <!-- Navbar destop UI Starts -->
 
-        <nav class="navbar navbar-expand-sm navbar-light  w-100  ">
-            <div class="d-flex flex-row justify-content-between navbarBoxParent  align-items-center">
+   <div class="d-xl-block d-lg-block d-none">
 
-                <div class="brandTagsCustomerPanel">
-                    <a class="navbar-brand" href="../index.html"><img src="../img/Maqamilogo.png" class="img"></a>
-                </div>
+    <nav class="navbar navbar-expand-sm navbar-light  w-100  ">
+        <div class="d-flex flex-row justify-content-between navbarBoxParent  align-items-center">
 
-                <div class="searbardivCustomerPanel">
+            <div class="brandTagsCustomerPanel">
+                <a class="navbar-brand" href="../index.html"><img src="../img/Maqamilogo.png" class="img"></a>
+            </div>
 
-                    <form class="form-inline">
+            <div class="searbardivCustomerPanel">
 
-                        <input class="form-control searchbarr" type="search" placeholder="What are your looking for?"
-                            aria-label="Search">
+                <form class="form-inline">
 
-                    </form>
+                    <input class="form-control searchbarr" type="search" placeholder="What are your looking for?"
+                        aria-label="Search">
 
-                </div>
-
-                <div class="tabsItemsCustomerPanel ">
-
-                    <ul class="navbar-nav d-flex flex-row justify-content-end justify-content-around ">
-
-                        <li class="nav-item lineSignIn">
-
-                            <a class="nav-link " style="color: white; font-size: 16px !important;" href="# ">العربية
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item lineSignIn">
-
-                            <a class="nav-link " href="../index.html"> <img src="./images/home.png" alt="">
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link" href="../emptyCart.html"> <img src="images/shopping-cart.png" alt="">
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
+                </form>
 
             </div>
 
+            <div class="tabsItemsCustomerPanel ">
 
+                <ul class="navbar-nav d-flex flex-row justify-content-end justify-content-around ">
 
-        </nav>
-    </div>
-<!-- Modal login -->
-<div class="modal " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- <h5 class="modal-title" id="staticBackdropLabel">Login</h5> -->
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-  
-          <div class="container-fluid  ">
-            <div class="container d-flex justify-content-center">
-    
-                <div class="loginForm ">
-                    
-                    <div class="pass welcome text-center"> Welcome Back!</div>
-                    <div class="pass signIn text-center"> Sign In  to your account </div>
-                   
-               
-                    <div class="pass forgot text-center"> Forgot Password? <a href="" data-toggle="modal" data-target="#staticBackdrop1"  data-dismiss="modal">Sign Up</a></div>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="text" >
-                            <span></span>
-                            <label> Email </label>
-                        </div>
-                        <div class="txt_field">
-                            <input type="password" >
-                            <span></span>
-                            <label>Password</label>
-                        </div>
-                       
-                        
-                        <!-- <a href="Userdetails.html"> <input type="submit" value="SIGN IN"></a> -->
-    
-    
-                      
-    
-                    </form>
-                  
-                   
-    
-                        <div class="signup_link">
-                            <a href="">Forget your password</a>
-                        </div>
-    
-                     
-                </div>
+                    <li class="nav-item lineSignIn">
+
+                        <a class="nav-link " style="color: white; font-size: 16px !important;" href="# ">العربية
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item lineSignIn">
+
+                        <a class="nav-link " href="../index.html"> <img src="./images/home.png" alt="">
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="../emptyCart.html"> <img src="images/shopping-cart.png" alt="">
+                        </a>
+
+                    </li>
+
+                </ul>
+
             </div>
+
         </div>
-  
-        </div>
-        <div class="modal-footer">
-          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-         <a href="indexUserSignIn.html" class="btn btn-light btn-md width-100% w-100 signbtn">  Sign In</a> 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Modal signup -->
-  <div class="modal " id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- <h5 class="modal-title" id="staticBackdropLabel">Login</h5> -->
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-  
-           <!-- signUp form -->
-    <div class="container mb-2">
-  
-  
-      <div class="container d-flex justify-content-center">
-        <div class="signUpForm">
-          <div class="pass signIn text-center">Create an account </div>
-         
-     
-          <div class="pass forgot text-center"  data-toggle="modal" data-target="#staticBackdrop" data-dismiss="modal" > Already have an account <a href="">Sign In</a></div>
-          <form method="post">
-            <!-- 2 column grid layout with text inputs for the first and last names -->
-              <!-- Email input -->
-              <div class="form-outline txt_field">
-                <input type="email" required id="form3Example3" />
-                <span></span>
-                <label>Email address</label>
-              </div>
-    
-              <!-- Password input -->
-              <div class="form-outline txt_field ">
-                <input type="password" required id="form3Example4" />
-                <span></span>
-                <label>Password</label>
-              </div>
-              <div class="form-outline txt_field ">
-                <input type="text" required id="form3Example4" />
-                <span></span>
-                <label>First Name</label>
-              </div>
-              <div class="form-outline txt_field ">
-                <input type="text" required id="form3Example4" />
-                <span></span>
-                <label>Last Name</label>
-              </div>
-  
-          
-  
-           
-          </form>
-        </div>
-  
-      </div>
-  
-  
-    </div>
-  
-  
-        </div>
-        <div class="modal-footer">
-          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button> -->
-           <!-- Submit button -->
-           <button type="submit" class="btn btn-light  btn-block width-100% w-100 signbtn ">Create An Account </button>
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- Navbar destop ENDS -->
 
 
-    <div class="main-div container-fluid d-none d-sm-none d-md-block">
+
+    </nav>
+</div>
+
+<!-- Navbar destop ENDS -->
+
+    <!-- navbar destop end -->
+
+    <div class="d-none d-xl-block d-md-block d-lg-block main-div container-fluid">
 
         <div class="container-fluid">
 
@@ -547,17 +414,17 @@
 
                             <ul class="main-ul ">
 
-                                <a href="orders.html"> <li class="active p-2">  <span> <img src="images/icons/order.svg" class="img-fluid">
+                                <a href="orders.html"> <li class="p-2">  <span> <img src="images/icons/order.svg" class="img-fluid">
                                         </span> Orders
                                     </li></a> 
 
-                                    <a href="address.html"><li class="p-2">  <span>
+                                    <a href="address.html"><li class=" p-2">  <span>
                                             <img src="images/icons/address.svg" class="img-fluid" /> </span>
                                         Addresses  </li></a>
-                                        <a href="address-details.html"><li class=" p-2">  <span>
+
+                                        <a href="address-details.html"><li class="active p-2">  <span>
                                             <img src="images/icons/address.svg" class="img-fluid" /> </span>
                                         Address-Detail  </li></a>
-                                        
 
                                         <a href="payments.html"> <li class="p-2"> <span> <img src="images/icons/payments.svg" class="img-fluid" />
                                         </span>
@@ -600,7 +467,7 @@
                                      <a href="order-details.html"><li class="p-2">  <span> <img
                                         src="images/icons/order.svg" class="img-fluid" /> </span>
                                 Order Details
-                             </li></a>
+                             </li> </a>
 
                             </ul>
 
@@ -610,49 +477,66 @@
 
                 </div>
 
-                <div class="col-lg-10">
+                <div class="col-md-10 ">
 
-                    <div class="heading-section mt-3">
+                    <div class=" heading-section mt-3 d-flex justify-content-between align-content-center align-items-center">
+                        <div>
+                            <p> <span style="font-size: 24px; font-weight: bold;"> Addresses </span> <br> <span
+                                style="font-size: 14px; color: #7e859b;"> Add, remove and select preffered addresses
+                            </span> </p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn shoppingbtn"> ADD A NEW ADDRESS </button>
 
-                        <p> <span style="font-size: 24px; font-weight: bold;"> Orders </span> <br> <span
-                                style="font-size: 14px; color: #7e859b;"> See how your orders are managed and checked
-                                the latest
-                                status
-                                on your order </span> </p>
+                        </div>
+
+                       
 
                     </div>
 
 
-                    <div class="emptycart-image-section mt-5">
-
-                        <div class="main-image d-flex justify-content-center align-items-center mt-5">
-
-                            <img src="images/empty_cart.svg" class="img-fluid mt-5 w-25">
-
+                    <div class=" mt-3">
+                         <!-- order details  -->
+                    <div class="container-fluid  bg-white">
+                        <div class="row border-bottom border-top border-left border-right pt-3">
+                            <div class="col-md-12">
+                                <p class="backlinearPara">primary address 
+                                
+                            </p>
+                            </div>
                         </div>
-
-                        <div class="text-section mt-4">
-
-                            <p class="text-center"> <span style="font-size: 21px; font-weight: bold;"> You don't have
-                                    any orders yet </span> <br> <span style="font-size: 14px;"> What are you waiting
-                                    for? Start shopping! </span> </p>
-
-                        </div>
-
-                        <div class="button-section text-center mb-5">
-
-                            <div class="main-button">
-
-                                <a href="../index.html">
-
-                                    <button type="button" class="btn shoppingbtn"> CONTINUE SHOPPING </button>
-
-                                </a>
+                        
+                        <!-- address details  -->
+                        <div class=" container-fluid p-0">
+                            <div class=" pt-2 ">
+                                <p class="backlinearFont ">home</p>
 
                             </div>
-
                         </div>
+                        <div class="row border-bottom pb-3">
+                            
+                            <div class="col-lg-3 ">
+                                <p class="addresspara">Name</p>
+    
+                                <p class="addresspara text-dark">Maqaami khan</p>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <p class="addresspara text-capitalize">address</p>
+    
+                                <p class="addresspara text-dark">Ajman, Ajman, United Arab Emirates</p>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <p class="addresspara">MOBILE NUMBER   </p>
+                                <p class="addresspara text-dark">+971-56-4098627 <i class="fa fa-check text-success" aria-hidden="true"></i></p>
+                            </div>
+                           
+                        </div>
+                    </div>
 
+                       
+
+                      
+                       
                     </div>
 
                 </div>
@@ -700,8 +584,6 @@
     <script src="../Links/jQuery-3.6.0/jquery.min.js"></script>
 
     <script src="../Links/bootstrap-4.6.0-dist/js/bootstrap.bundle.js"></script>
-
-    <script src="app.js"></script>
 
     <script src="mobile-script.js"></script>
 
